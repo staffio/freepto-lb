@@ -1,0 +1,17 @@
+user-setup 
+sudo 
+cryptsetup 
+apt-utils
+vim
+screen
+enigmail
+tor
+deb.torproject.org-keyring
+icedove
+iceweasel
+privoxy
+git
+xchat
+vidalia
+tor-arm
+chromium-browser

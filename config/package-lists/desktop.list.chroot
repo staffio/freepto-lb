@@ -1,0 +1,15 @@
+task-xfce-desktop
+task-laptop
+task-print-server
+task-ssh-server
+
+flashplugin-nonfree
+
+#nif DISTRIBUTION wheezy
+        plymouth plymouth-drm plymouth-x11
+#endif
+
+#if DISTRIBUTION sid
+        #gstreamer-vaapi
+        i965-va-driver
+#endif
