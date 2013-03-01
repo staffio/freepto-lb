@@ -4,19 +4,29 @@ cryptsetup
 apt-utils
 vim
 screen
-enigmail
+git
+
+# Network Security:
 tor
 deb.torproject.org-keyring
-privoxy
-git
 xchat
 vidalia
 tor-arm
+openvpn
+privoxy
+
+# Navigazione:
 chromium-browser
-aircrack-ng
-macchanger
 linuxmint-keyring
 firefox
 firefox-l10n-it
+
+# Mail and GPG
 thunderbird
 thunderbird-l10n-it
+enigmail
+seahorse
+
+# Tools
+aircrack-ng
+macchanger
