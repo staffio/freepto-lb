@@ -5,6 +5,7 @@ libxpcom_compat.so
 libxpistub.so
 libzlib.so
 libjemalloc.so
+libmozutils.so
 libmozjs.so
 LICENSE
 browserconfig.properties
@@ -60,6 +61,7 @@ components/nsUrlClassifierTable.js
 components/nsXmlRpcClient.js
 components/pluginGlue.js
 components/sidebar.xpt
+components/uconvd.dll
 components/WeaveCrypto.js
 components/WeaveCrypto.manifest
 components/xmlextras.xpt
@@ -93,6 +95,7 @@ extensions/talkback@mozilla.org/components/qfaservices.xpt
 extensions/talkback@mozilla.org/install.rdf
 extensions/{641d8d09-7dda-4850-8228-ac0ab65e2ac9}/
 extensions/{641d8d09-7dda-4850-8228-ac0ab65e2ac9}/install.rdf
+extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/preview.png
 extensions/testpilot@labs.mozilla.com/chrome.manifest
 extensions/testpilot@labs.mozilla.com/components/TestPilot.js
 extensions/testpilot@labs.mozilla.com/content/all-studies-window.js
@@ -209,11 +212,14 @@ extensions/testpilot@labs.mozilla.com/skin/win/feedback.css
 extensions/testpilot@labs.mozilla.com/skin/win/notification-tail-down.png
 extensions/testpilot@labs.mozilla.com/skin/win/notification-tail-up.png
 extensions/testpilot@labs.mozilla.com/tests/test_data_store.js
+extensions/uriloader@pdf.js.xpi
 greprefs/all.js
 greprefs/security-prefs.js
 greprefs/xpinstall.js
 install.rdf
 modules/JSON.jsm
+modules/SpatialNavigation.js
+modules/utils.js
 mozilla-runtime
 old-homepage-default.properties
 README.txt
@@ -235,6 +241,7 @@ res/fonts/mathfontMath4.properties
 res/fonts/mathfontPUA.properties
 res/fonts/pangoFontEncoding.properties
 res/forms.css
+res/full-screen-override.css
 res/hiddenWindow.html
 res/html.css
 res/html/gopher-audio.gif
@@ -667,6 +674,7 @@ uninstall/UninstallDeerPark.exe
 uninstall/UninstallFirefox.exe
 uninstall/uninst.exe
 uninstall/uninstall.exe
+update.locale
 xpicleanup
 omni.jar
 chrome/af.jar
@@ -834,6 +842,9 @@ components/addonManager.js
 components/amContentHandler.js
 components/amWebInstallListener.js
 components/browser.xpt
+components/BrowserElementParent.js
+components/BrowserElementParent.manifest
+components/BrowserElementPromptService.jsm
 components/components.manifest
 components/contentAreaDropListener.js
 components/contentSecurityPolicy.js
@@ -891,6 +902,8 @@ components/storage-Legacy.js
 components/storage-mozStorage.js
 components/txEXSLTRegExFunctions.js
 components/Weave.js
+components/Webapps.js
+components/Webapps.manifest
 components/WebContentConverter.js
 defaults/autoconfig/platform.js
 defaults/autoconfig/prefcalls.js
@@ -975,6 +988,13 @@ modules/PopupNotifications.jsm
 modules/PropertyPanel.jsm
 modules/reflect.jsm
 modules/Services.jsm
+modules/services-common/async.js
+modules/services-common/log4moz.js
+modules/services-common/observers.js
+modules/services-common/preferences.js
+modules/services-common/rest.js
+modules/services-common/stringbundle.js
+modules/services-common/utils.js
 modules/services-sync/auth.js
 modules/services-sync/base_records/collection.js
 modules/services-sync/base_records/crypto.js
@@ -1013,7 +1033,7 @@ modules/stylePanel.jsm
 modules/tabview/AllTabs.jsm
 modules/tabview/groups.jsm
 modules/tabview/utils.jsm
-modules/utils.js
+modules/Webapps.jsm
 modules/WindowDraggingUtils.jsm
 modules/XPCOMUtils.jsm
 modules/XPIProvider.jsm
@@ -1061,6 +1081,7 @@ chrome/icons/default/default.xpm
 components/libimgicon.so
 dictionaries/PL.aff
 dictionaries/PL.dic
+icons/document.png
 icons/mozicon16.xpm
 icons/mozicon50.xpm
 plugins/libnullplugin.so
@@ -1104,3 +1125,6 @@ extensions/inspector@mozilla.org/chrome/icons/default/winInspectorMain.ico
 components/nsPlacesTransactionsService.js
 components/browserplaces.xpt
 components/nsPlacesDBFlush.js
+maintenanceservice.exe
+maintenanceservice_installer.exe
+jssubloader/

@@ -5,7 +5,7 @@ const Cc = Components.classes;
 const Cu = Components.utils;
 const Cr = Components.results;
 
-const VERSION = "2.6.2";
+const VERSION = "2.6.5.7";
 const SERVICE_CTRID = "@maone.net/noscript-service;1";
 const SERVICE_ID = "{31aec909-8e86-4397-9380-63a59e0c5ff5}";
 const EXTENSION_ID = "{73a6fe31-595d-460b-a920-fcc0f8843232}";
@@ -153,7 +153,7 @@ function NSGetFactory(cid) {
 }
 
 const CP_OK = 1;
-const CP_REJECT = -2; // CP_REJECT_TYPE doesn't case the -moz-suppressed CSS pseudo class to be added
+const CP_REJECT = -2; // CP_REJECT_TYPE doesn't cause the -moz-suppressed CSS pseudo class to be added
 const CP_NOP = function() CP_OK;
 const CP_FRAMECHECK = 2;
 const CP_SHOULDPROCESS = 4;
@@ -353,7 +353,7 @@ const SiteUtils = new function() {
   };
   
   this.crop = function(url, max) {
-    max = max || 2000;
+    max = max || 1000;
     if (url.length > max) {
         return this.crop(url.substring(0, max / 2)) + "\n[...]\n" + 
           this.crop(url.substring(url.length - max / 2));
@@ -855,6 +855,7 @@ SyntaxChecker.prototype = {
        return !!(this.lastFunction = this.ev("new Function(script)"));
      } catch(e) {
        this.lastError = e;
+       this.lastFunction = null;
      }
      return false;
   },
@@ -1297,19 +1298,9 @@ var ns = {
           break;
         case "sessionstore-windows-restored":
           ns.checkVersion();
+          INCLUDE("Removal");
           break;
         
-        case "em-action-requested":
-          if ((subject instanceof Ci.nsIUpdateItem)
-              && subject.id == this.EXTENSION_ID ) {
-            if (data == "item-uninstalled" || data == "item-disabled") {
-              this.uninstalling = true;
-            } else if (data == "item-enabled") {
-              this.uninstalling = false;
-            }
-          }
-        break;
-      
         case "private-browsing":
           if (data == "enter") {
             STS.enterPrivateBrowsing();
@@ -1369,7 +1360,7 @@ var ns = {
           }
           
           let abeReq = ns.requestWatchdog.onHttpStart(channel);
-          ns.dump("HTTP observer processed " + channel.name);
+
           if (abeReq && abeReq.isDoc) ns._handleDocJS(abeReq.window, channel, true);   
         }
 
@@ -1379,10 +1370,17 @@ var ns = {
     }
   },
   
+  earlyHttpObserver: {
+    observe: function(channel, topic, data) {
+      PolicyState.attach(channel);
+    }
+  },
+  
   OBSERVED_TOPICS: ["profile-before-change", "xpcom-shutdown", "profile-after-change", "sessionstore-windows-restored",
                     "browser:purge-session-history", "private-browsing",
                     "content-document-global-created", "document-element-inserted"],
   register: function() {
+    OS.addObserver(this.earlyHttpObserver, "http-on-opening-request", false);
     OS.addObserver(this.httpObserver, "http-on-modify-request", false);
     this.OBSERVED_TOPICS.forEach(function(topic) {
       OS.addObserver(this, topic, true);
@@ -1394,6 +1392,7 @@ var ns = {
         OS.removeObserver(this, topic);
       } catch (e) {}
     }, this);
+    OS.removeObserver(this.earlyHttpObserver, "http-on-opening-request", false);
     OS.removeObserver(this.httpObserver, "http-on-modify-request");
   }
 ,
@@ -1751,14 +1750,20 @@ var ns = {
       case "nselNever":
         sheet = "noscript, noscript * { display: none !important }";
         break;
-      case "showPlaceholder": 
+      case "showPlaceholder":
+        let bim = "background-image: -moz-image-rect(url(" + this.skinBase + "close.png),";
         sheet = '.__noscriptPlaceholder__ { direction: ltr !important; display: inline-block !important; } ' +
-                '.__noscriptPlaceholder__ > .__noscriptPlaceholder__1 { display: inline-block !important; ' +
+                '.__noscriptPlaceholder__ > .__noscriptPlaceholder__1 { display: inline-block !important; position: relative !important;' +
                 'outline-color: #fc0 !important; outline-style: solid !important; outline-width: 1px !important; outline-offset: -1px !important;' +
                 'cursor: pointer !important; background: #ffffe0 url("' + 
                     this.pluginPlaceholder + '") no-repeat left top !important; opacity: 0.6 !important; margin-top: 0px !important; margin-bottom: 0px !important;} ' +
                 '.__noscriptPlaceholder__1 > .__noscriptPlaceholder__2 { display: inline-block !important; background-repeat: no-repeat !important; background-color: transparent !important; width: 100%; height: 100%; display: block; margin: 0px; border: none } ' +
-                'noscript .__noscriptPlaceholder__ { display: inline !important; }';
+                'noscript .__noscriptPlaceholder__ { display: inline !important; }' +
+                '.__noscriptPlaceholder__1 > .closeButton { display: block !important; position: absolute !important; top: 0 !important; right: 0 !important;' +
+                bim + "0,25%,100%,0) !important; width: 16px !important; height: 16px !important; opacity: .8 !important}" +
+                '.__noscriptPlaceholder__1 > .closeButton:hover {' + bim + '0,50%,100%,25%) !important; opacity: 1 !important}' +
+                '.__noscriptPlaceholder__1 > .closeButton:hover:active {' + bim + '0,75%,100%,50%) !important; opacity: 1 !important}' +
+                '.__noscriptPlaceholder__1 > .msg { text-align: center !important; bottom: 0 !important; left: 0 !important; width: 100% !important; position: absolute !important; font-size: 12px !important; font-weight: bold !important; font-family: sans-serif !important; }'
       break;
       case "clearClick":
         sheet = "body:not([id]) { cursor: auto !important } " + 
@@ -1814,20 +1819,7 @@ var ns = {
     INCLUDE('Strings');
     return this.Strings = Strings;
   },
-  
-  _uninstalling: false,
-  get uninstalling() {
-    return this._uninstalling;
-  },
-  set uninstalling(b) {
-    if (!this._uninstalling) {
-      if (b) this.uninstallJob();
-    } else {
-      if (!b) this.undoUninstallJob();
-    }
-    return this._uninstalling = b;
-  }
-,
+
   _inited: false,
   POLICY_NAME: "maonoscript",
   prefService: null,
@@ -2393,9 +2385,9 @@ var ns = {
   globalJS: false,
   get jsEnabled() {
     try {
-      return this.mozJSEnabled && this.caps.getCharPref("default.javascript.enabled") != "noAccess";
+      return this.mozJSEnabled && this.caps.getCharPref("default.javascript.enabled") !== "noAccess";
     } catch(ex) {
-      return this.uninstalling ? this.mozJSEnabled : (this.jsEnabled = this.globalJS);
+      return this.jsEnabled = this.globalJS;
     }
   }
 ,
@@ -2930,13 +2922,6 @@ var ns = {
     } catch(ex) {}
   }
 ,
-  uninstallJob: function() {
-    // this.resetJSCaps();
-  },
-  undoUninstallJob: function() {
-    // this.setupJSCaps();
-  }
-,
   getPref: function(name, def) {
     const IPC = Ci.nsIPrefBranch;
     const prefs = this.prefs;
@@ -3175,7 +3160,7 @@ var ns = {
 ,
   
   getAllowObjectMessage: function(extras) {
-    let url = SiteUtils.crop(extras.url);
+    let url = SiteUtils.crop(extras.url).replace(/\S{80}/g, "$&\n");
     let details = extras.mime + " " + (extras.tag || (extras.mime === "WebGL" ? "<CANVAS>" : "<OBJECT>")) + " / " + extras.originSite; 
     return this.getString("allowTemp", [url + "\n(" + details + ")\n"]);
   }
@@ -3280,7 +3265,7 @@ var ns = {
   cpDump: function(msg, aContentType, aContentLocation, aRequestOrigin, aContext, aMimeTypeGuess, aInternalCall) {
     this.dump("Content " + msg + " -- type: " + aContentType + ", location: " + (aContentLocation && aContentLocation.spec) + 
       ", origin: " + (aRequestOrigin && aRequestOrigin.spec) + ", ctx: " + 
-        ((aContext instanceof Ci.nsIDOMHTMLElement) ? "<HTML Element>" // try not to cause side effects of toString() during load
+        ((aContext instanceof Ci.nsIDOMHTMLElement) ? "<HTML " + aContext.tagName + ">" // try not to cause side effects of toString() during load
           : aContext)  + 
         ", mime: " + aMimeTypeGuess + ", " + aInternalCall);
   },
@@ -4567,7 +4552,6 @@ var ns = {
     return ret;
   },
   
-  _phAnchorProps: ["position", "top", "bottom", "left", "right"],  
   processObjectElements: function(document, sites, loaded) {
     const pluginExtras = this.findPluginExtras(document);
     sites.pluginCount += pluginExtras.length;
@@ -4583,6 +4567,8 @@ var ns = {
     
     const minSize = this.getPref("placeholderMinSize"),
           longTip = this.getPref("placeholderLongTip");
+    
+    const skipCSS = /^(?:position|top|left|right|bottom)$/;
     
     var replacements = null,
         collapse = this.collapseObject,
@@ -4609,6 +4595,8 @@ var ns = {
         
         if(!this.showUntrustedPlaceholder && this.isUntrusted(extras.site))
           continue;
+        
+        let msg = "";
         
         let objectTag = object.tagName.toUpperCase();
         if (objectTag === "VIDEO") {
@@ -4665,7 +4653,8 @@ var ns = {
         if (style) {
           for (let cssCount = 0, cssLen = style.length; cssCount < cssLen; cssCount++) {
             let cssProp = style.item(cssCount);
-            cssDef += cssProp + ": " + style.getPropertyValue(cssProp) + ";";
+            if (!skipCSS.test(cssProp))
+              cssDef += cssProp + ": " + style.getPropertyValue(cssProp) + ";";
           }
           
           innerDiv.setAttribute("style", cssDef + forcedCSS);
@@ -4680,7 +4669,6 @@ var ns = {
             anchor.style.left = style.left;
             anchor.style.bottom = style.bottom;
             anchor.style.right = style.right;
-            innerDiv.style.position = "static";
           }
         } else restrictedSize = collapse;
         
@@ -4690,7 +4678,10 @@ var ns = {
         }
         
         innerDiv.style.visibility = "visible";
-
+        
+        let closeButton = innerDiv.appendChild(document.createElementNS(HTML_NS, "div"));
+        closeButton.className = "closeButton";
+        
         anchor.appendChild(innerDiv);
         
         // icon div
@@ -4718,6 +4709,12 @@ var ns = {
         } else {
           iconSize = 32;
           innerDiv.style.backgroundPosition = "center";
+          if (msg) {
+            let msgDiv = document.createElement("div");
+            msgDiv.className = "msg";
+            msgDiv.textContent = msg;
+            anchor.firstChild.appendChild(msgDiv);
+          }
         }
         innerDiv.style.backgroundImage = this.cssMimeIcon(extras.mime, iconSize);
         
@@ -4815,7 +4812,9 @@ var ns = {
     const object = this.getExpando(anchor, "removedNode");
     
     if (object) try {
-      if (ev.shiftKey) {
+      let shift = ev.shiftKey;
+      let closeButton = ev.target.className === "closeButton";
+      if (closeButton ? !shift : shift) {
         anchor.style.display = "none";
         anchor.id = anchor.className = "";
         return;
@@ -4855,34 +4854,6 @@ var ns = {
         break;
       }
     }
-    
-    // check for non-statically positioned nodes
-    var win = doc.defaultView;
-    var style = win.getComputedStyle(el.offsetParent || el, "");
-    if (style.position !== "static") {
-      let ph = this._findPlaceholder(doc, { x: ev.clientX + win.scrollX, y: ev.clientY + win.scrollY });
-      if (ph) {
-        let object = this.getExpando(ph, "removedNode");
-        if (object && !(object instanceof Ci.nsIDOMHTMLAnchorElement))
-          this.setExpando(object, "overlay", el);
-        this.onPlaceholderClick(ev, ph);
-      }
-    }
-  },
-  
-  _findPlaceholder: function(doc, p) {
-    let pluginExtras = this.findPluginExtras(doc);
-    if (pluginExtras) {
-      for (let j = pluginExtras.length; j-- > 0;) {
-        let ph = pluginExtras[j].placeholder;
-        if (ph) try {
-          if (DOM.elementContainsPoint(ph, p)) return ph;
-        } catch(e) {
-          if (this.consoleDump) this.dump(e);
-        }
-      }
-    }
-    return null;
   },
   
   checkAndEnablePlaceholder: function(anchor, object) {
@@ -5321,9 +5292,7 @@ var ns = {
       return;    
   
     const rw = this.requestWatchdog;    
-    
-    HTTPS.forceChannel(newChan);
-    
+
     IOUtil.attachToChannel(newChan, "noscript.redirectFrom", oldChan.URI);
     
     ABE.updateRedirectChain(oldChan, newChan);
@@ -5753,23 +5722,24 @@ var ns = {
       
       if (this.consoleDump & LOG_CONTENT_BLOCK) 
         this.dump("Blocking top-level plugin document");
-
-      IOUtil.abort(req);
       
       
-      ["embed", "video", "audio"].forEach(function(tag) {
-        var embeds = domWindow.document.getElementsByTagName(tag);
-        var eType = "application/x-noscript-blocked";
-        var eURL = "data:" + eType + ",";
-        var e;
-        for (var j = embeds.length; j-- > 0;) {
-          e = embeds.item(j);
-          if (this.shouldLoad(5, uri, null, e, contentType, CP_SHOULDPROCESS) != CP_OK) {
-            e.src = eURL;
-            e.type = eType;
+      if (this._abortPluginDocLoads) {
+        IOUtil.abort(req);  
+        ["embed", "video", "audio"].forEach(function(tag) {
+          var embeds = domWindow.document.getElementsByTagName(tag);
+          var eType = "application/x-noscript-blocked";
+          var eURL = "data:" + eType + ",";
+          var e;
+          for (var j = embeds.length; j-- > 0;) {
+            e = embeds.item(j);
+            if (this.shouldLoad(5, uri, null, e, contentType, CP_SHOULDPROCESS) != CP_OK) {
+              e.src = eURL;
+              e.type = eType;
+            }
           }
-        }
-      }, this);
+        }, this);
+      }
       
       if (xssInfo) overlay.notifyXSS(xssInfo);
       
@@ -5780,6 +5750,11 @@ var ns = {
         if (xssInfo) overlay.notifyXSSOnLoad(xssInfo);
       }
     }
+  },
+  
+  get _abortPluginDocLoads() {
+    delete this._abortPluginDocLoads;
+    return this._abortPluginDocLoads = this.geckoVersionCheck("18.0.1") < 0;
   },
   
   hasClearClickHandler: false,
@@ -6293,20 +6268,75 @@ var ns = {
   },  
   // end nsIWebProgressListener
   
-  _badCharsetRx: /\butf-?7\$|^armscii-8$/i,
+  _badCharsetRx: /\bUTF-?7\$|^armscii-8$/i,
+  _goodCharsetRx: /^UTF-?8$/i,
   filterBadCharsets: function(docShell) {
     try {
-      let rx = this._badCharsetRx;
       let charsetInfo = docShell.documentCharsetInfo || docShell;
-      let cs = charsetInfo.charset;
-      if(rx.test(cs)) {
-        this.log("[NoScript XSS] Neutralizing bad charset " + cs);
-        let as = Cc["@mozilla.org/atom-service;1"].getService(Ci.nsIAtomService);
-        charsetInfo.forcedCharset = as.getAtom("UTF-8");
-        docShell.reload(docShell.LOAD_FLAGS_CHARSET_CHANGE); // needed in Gecko > 1.9
-        return true;
+      let cs;
+      try {
+        cs = charsetInfo.charset;
+      } catch (e) {
+        cs = docShell.document.characterSet;
       }
+      
+      if (this._goodCharsetRx.test(cs)) return false;
+      
+      if(this._badCharsetRx.test(cs)) {
+        this.log("[NoScript XSS] Neutralizing bad charset " + cs);
+      } else {
+        let uri = docShell.currentURI;
+        if (!(uri instanceof Ci.nsIURL)) return false;
+        let url = unescape(uri.spec);
+        try {
+          let exceptions = this.getPref("xss.checkCharset.exceptions");
+          if (exceptions && AddressMatcher.create(exceptions).test(url)) return false;
+        } catch (e) {}
+        
+        let ic = this.injectionChecker;
+        let unicode = /^UTF-?16/i.test(cs) && url.indexOf("\0") !== -1;
+        let le = unicode && /LE$/i.test(cs);
+        
+        function decode(u) {
+          if (unicode) {
+            let pos = u.indexOf("\0");
+            if (pos > -1) {
+              if (le) pos--;
+              return u.substring(0, pos) + ic.toUnicode(u.substring(pos), cs);
+            }
+          }
+          return ic.toUnicode(u, cs);
+        }
+        
+        function check(original, decoded) original === decoded || !ic.checkRecursive(decoded, 1);
+        
+        let [filePath, query, ref] = ["filePath", "query", "ref"].map(function(p) unescape(uri[p]));
+        
+        if ( // check...
+            // ...whole URL
+            check(url, decode(url)) && 
+            // ...whole path
+            check(filePath, decode(filePath)) &&
+            // ...path parts
+            check(filePath,  uri.filePath.split("/").map(function(p) decode(unescape(p))).join("/")) &&
+            // ... whole query
+            check(query, decode(query)) &&
+            // ... query parts
+            check(query, uri.query.split("&").map(function(p) p.split("=").map(function(p) decode(unescape(p))).join("=")).join("&")) &&
+            // ... fragment
+            check(ref, decode(ref))
+          ) return false;
+            
+        this.log("[NoScript XSS] Potential XSS with charset " + cs + ", forcing UTF-8");
+      }
+      docShell.allowJavascript = false;
+      Thread.asap(function() docShell.allowJavascript = true);
+      let as = Cc["@mozilla.org/atom-service;1"].getService(Ci.nsIAtomService);
+      charsetInfo.forcedCharset = as.getAtom("UTF-8");
+      docShell.reload(docShell.LOAD_FLAGS_CHARSET_CHANGE); // needed in Gecko > 1.9
+      return true;
     } catch(e) {
+      ns.log(e)
       if (this.consoleDump) this.dump("Error filtering charset " + e);
     }
     return false;

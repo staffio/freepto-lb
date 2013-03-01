@@ -17,6 +17,9 @@ if [ "x$DISPLAY" = "x" ]; then
 	exit 1
 fi
 
+# Do not (try to) connect to the session manager 
+unset SESSION_MANAGER 
+
 # Determine whether we are running in a terminal.  If we are, we
 # should send our error messages to stderr...
 ARE_WE_RUNNING_IN_A_TERMINAL=0
