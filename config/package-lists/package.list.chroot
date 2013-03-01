@@ -16,6 +16,8 @@ vidalia
 tor-arm
 openvpn
 privoxy
+ufw
+gufw
 
 # Navigazione:
 chromium-browser
