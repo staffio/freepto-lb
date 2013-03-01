@@ -5,6 +5,8 @@ apt-utils
 vim
 screen
 git
+curl
+wget
 
 # Network Security:
 tor
