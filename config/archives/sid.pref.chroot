@@ -1,7 +1,0 @@
-Package: user-setup
-Pin: release n=wheezy
-Pin-Priority: 600
-
-Package: syslinu*
-Pin: release n=wheezy
-Pin-Priority: 600
