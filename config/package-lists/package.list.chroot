@@ -1,3 +1,4 @@
+# SO
 user-setup 
 sudo 
 cryptsetup 
@@ -7,6 +8,7 @@ screen
 git
 curl
 wget
+gksu
 
 # Network Security:
 tor
