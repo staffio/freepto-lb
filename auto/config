@@ -1,11 +1,10 @@
 #!/bin/sh
-mirror="http://ftp.debian.org/debian/"
-security_mirror="http://ftp.debian.org/debian-security/"
 lb config noauto \
     -a i386 \
     -b hdd \
-    -d sid \
+    -d wheezy \
     --linux-flavours 686-pae \
+    --apt-indices false
     --mode debian \
     --debian-installer live \
     --debian-installer-gui true \
@@ -20,8 +19,4 @@ lb config noauto \
     " \
     --archive-areas "main contrib non-free" \
     --apt-recommends true \
-    --mirror-bootstrap "${mirror}" \
-    --mirror-binary "${mirror}" \
-    --mirror-chroot-security "${security_mirror}" \
-    --mirror-binary-security "${security_mirror}" \
 "${@}"
