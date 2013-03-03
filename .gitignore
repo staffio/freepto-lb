@@ -6,12 +6,19 @@ binary*.contents
 binary*.packages
 binary*.zsync
 
-
 .build/
 build.log
 
+cache/
+
 chroot/
 chroot.packages.*
+
+config/binary
+config/bootstrap
+config/chroot
+config/common
+config/source
 
 source/
 source*.iso
@@ -20,5 +27,3 @@ source*.tar*
 source*.contents
 source*.packages
 source*.zsync
-
-cache/
