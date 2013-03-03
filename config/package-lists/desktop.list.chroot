@@ -1,4 +1,13 @@
-task-xfce-desktop
+#task-xfce-desktop
+xfce4
+xfce4-goodies
+libreoffice
+xfce4-mixer
+xfce4-power-manager
+libreoffice-gtk
+libreoffice-gcj
+vlc
+network-manager-gnome
 task-laptop
 task-print-server
 flashplugin-nonfree
