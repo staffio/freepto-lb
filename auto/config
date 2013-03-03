@@ -1,4 +1,6 @@
 #!/bin/sh
+# Freepto LiveBuild Config
+
 lb config noauto \
     -a i386 \
     -b hdd \
