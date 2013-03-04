@@ -10,7 +10,7 @@ curl
 wget
 gksu
 
-# Network Security:
+# Network:
 tor
 pidgin
 pidgin-otr
@@ -24,7 +24,6 @@ ufw
 gufw
 
 # Navigazione:
-chromium-browser
 linuxmint-keyring
 firefox
 firefox-l10n-it
@@ -38,6 +37,7 @@ seahorse
 # Tools
 macchanger
 wipe
+bleachbit
 
 # Multimedia
 deb-multimedia-keyring
