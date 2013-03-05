@@ -1,10 +1,12 @@
-#task-xfce-desktop
 xfce4
 xfce4-goodies
 libreoffice
 xfce4-mixer
 xfce4-power-manager
-vlc
+xfce4-terminal
+xfprint4
+quodlibet
+epdfview
 network-manager-gnome
 task-laptop
 task-print-server
