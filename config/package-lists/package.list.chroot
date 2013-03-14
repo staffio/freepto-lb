@@ -39,6 +39,7 @@ seahorse
 macchanger
 wipe
 bleachbit
+secure-delete
 
 # Multimedia
 deb-multimedia-keyring
