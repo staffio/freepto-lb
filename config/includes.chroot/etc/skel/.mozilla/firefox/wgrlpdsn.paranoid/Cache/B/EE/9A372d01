@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<searchresults total_results="463">
+          <addon id="2464">
+  <name>FoxyProxy Standard</name>
+  <type id="1">estensioni</type>
+  <guid>foxyproxy@eric.h.jung</guid>
+  <slug>foxyproxy-standard</slug>
+  <version>4.1.3</version>
+  <status id="4">Revisione completa effettuata</status>
+  <authors>
+        <author id="323">
+      <name>Eric H. Jung</name>
+      <link>https://addons.mozilla.org/it/firefox/user/323/?src=api</link>
+    </author>      </authors>
+  <summary>FoxyProxy è uno strumento di gestione avanzata dei proxy che sostituisce completamente la gestione dei proxy di Firefox. Offre molte più funzioni delle estensioni SwitchProxy, ProxyButton, QuickProxy, xyzproxy, ProxyTex, TorButton, etc</summary>
+  <description>FoxyProxy è un&#39;estensione per Firefox che permette di passare alla navigazione tramite uno o più server proxy basati su modelli di URL in maniera automatica, semplicemente modificando automaticamente i parametri della finestra delle impostazioni di connessione di Firefox. Ciò avviene basandosi sull&#39;URL da caricare e sulle regole per il cambio dei server proxy definite dall&#39;utente.
+
+Le icone animate mostrano quando un server proxy viene utilizzato, e tramite le registrazioni è possibile visualizzare quali server sono stati utilizzati e quando. La funzione di aggiunta rapida permette di creare velocemente e facilmente nuovi modelli di URL. FoxyProxy è pienamente compatibile con Portable Firefox, dispone di un migliore supporto per i file PAC di Firefox, ed è tradotta in più di 25 lingue.
+
+FOXYPROXY NOW WORKS WITH SONGBIRD!</description><license>
+    <name>Licenza GNU General Public License, versione 2.0</name>
+    <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/2/2464-64.png?modified=1362240993</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/2/2464-32.png?modified=1362240993</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.1b3</min_version>
+      <max_version>21.0a1</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.0a</min_version>
+      <max_version>2.18a1</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>3.0a1pre</min_version>
+      <max_version>21.0a1</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/5/5857.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/5/5857.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="700" height="458">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/11/11313.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="130">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/11/11313.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Proxies Tab</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="458">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20059.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="130">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20059.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Global Settings</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="458">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20060.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="130">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20060.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>QuickAdd Settings</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="465">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20061.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="133">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20061.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>AutoAdd Settings</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="458">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20062.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="130">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20062.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Logging</caption></preview><preview position="1">
+      <full type="image/png" width="641" height="474">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20063.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="147">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20063.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Proxy Settings - General Info</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="392">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20064.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="112">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20064.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Proxy Settings - Details</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="390">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20065.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="111">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20065.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Proxy Settings - URL Patterns</caption></preview><preview position="1">
+      <full type="image/png" width="503" height="312">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20066.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="124">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20066.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Add/Edit Pattern</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="268">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20067.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="76">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20067.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>QuickAdd Prompt</caption></preview><preview position="1">
+      <full type="image/png" width="418" height="297">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20068.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="142">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20068.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>About Dialog</caption></preview><preview position="1">
+      <full type="image/png" width="566" height="333">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/36/36178.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="117">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/36/36178.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Toolbar icon with drop-down menu</caption></preview><preview position="1">
+      <full type="image/png" width="552" height="400">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/48/48944.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="144">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/48/48944.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Wildcard Reference: help on how to use wildcards</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="350">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/48/48945.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="100">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/48/48945.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Pattern Template Reference: help on how to use pattern templates for QuickAdd and AutoAdd</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/it/firefox/addon/foxyproxy-standard/?src=api</learnmore><install hash="sha256:9befd9c32ed8d6a4a996dbef0279cb91657b72891ab66389c4bc7f5666f606f9"
+    os="ALL"
+    size="910687">https://addons.mozilla.org/firefox/downloads/file/188906/foxyproxy_standard-4.1.3-fx+sm+tb.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/it/firefox/addon/foxyproxy-standard/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="9.99">
+            US$ 9,99
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/it/firefox/addon/foxyproxy-standard/developers?src=api
+      </meet_developers>
+    </contribution_data>    <developer_comments>Please report bugs to &lt;a href=&#34;http://outgoing.mozilla.org/v1/2bb2df4925a17d6063fec35ce6f06baef12fc654/http%3A//forums.getfoxyproxy.org&#34; rel=&#34;nofollow&#34;&gt;http://forums.getfoxyproxy.org&lt;/a&gt;</developer_comments>
+    <reviews num="255">
+      https://addons.mozilla.org/it/firefox/addon/foxyproxy-standard/reviews/?src=api
+    </reviews>
+    <total_downloads>14465142</total_downloads>
+    <weekly_downloads>32247</weekly_downloads>
+    <daily_users>422358</daily_users>
+    <created epoch="1146084054">
+      2006-04-26T20:40:54Z
+    </created>
+    <last_updated epoch="1359368810">
+      2013-01-28T10:26:50Z
+    </last_updated>
+    <homepage>http://foxyproxy.mozdev.org</homepage>
+    <support>http://foxyproxy.mozdev.org/drupal</support>
+    <featured>1</featured>
+        <performance>
+            <application name="fx" version="8.0.1">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.26" average="490.32"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="548.47" average="566.68"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="637.58" average="656.89"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="6.0.2">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="519.79" average="653.26"
+                  above_threshold="true" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="476.21" average="589.79"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="654.42" average="743.21"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="7.0.1">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="547.16" average="687.74"
+                  above_threshold="true" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.68" average="595.05"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="667.37" average="759.53"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="671.16" average="758.37"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="8.0">
+                <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="624.84" average="666.21"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="541.58" average="580.58"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="477.95" average="491.37"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="657.21" average="670.95"
+                  above_threshold="false" />
+        </platform></application></performance>
+    </addon>
+  <addon id="15023">
+  <name>FoxyProxy Basic</name>
+  <type id="1">estensioni</type>
+  <guid>foxyproxy-basic@eric.h.jung</guid>
+  <slug>foxyproxy-basic</slug>
+  <version>3.1.3</version>
+  <status id="4">Revisione completa effettuata</status>
+  <authors>
+        <author id="323">
+      <name>Eric H. Jung</name>
+      <link>https://addons.mozilla.org/it/firefox/user/323/?src=api</link>
+    </author>      </authors>
+  <summary>FoxyProxy Basic is a simple on/off proxy switcher.</summary>
+  <description>FoxyProxy Basic offers more features than other proxy addons. For instance:
+
+* Quickly create proxies from selected text on a web page (Alt+F3)
+* Animated icons when proxy is in use
+* Custom colored icons per proxy
+* Cycle through a list of proxies with middle mouse-click and right-mouse click on statusbar
+* Tor wizard for easy setup of Firefox with tor</description><license>
+    <name>Licenza GNU General Public License, versione 2.0</name>
+    <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/15/15023-64.png?modified=1362240946</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/15/15023-32.png?modified=1362240946</icon>
+  <compatible_applications><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.0a</min_version>
+      <max_version>2.18a1</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>3.0a1pre</min_version>
+      <max_version>21.0a1</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.1b3</min_version>
+      <max_version>21.0a1</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/49/49775.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/49/49775.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="637" height="436">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/48/48946.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="136">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/48/48946.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Proxies Tab</caption></preview><preview position="1">
+      <full type="image/png" width="637" height="436">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/48/48947.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="136">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/48/48947.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Global Settings</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="496">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/48/48948.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="141">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/48/48948.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Proxy Settings - General Info</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="445">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/48/48949.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="127">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/48/48949.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Proxy Settings - Details</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/it/firefox/addon/foxyproxy-basic/?src=api</learnmore><install hash="sha256:65d3be53a26522e1106345b161169f30dda053eb104831c845155080c3d576d3"
+    os="ALL"
+    size="910658">https://addons.mozilla.org/firefox/downloads/file/188908/foxyproxy_basic-3.1.3-sm+tb+fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/it/firefox/addon/foxyproxy-basic/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="9.99">
+            US$ 9,99
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/it/firefox/addon/foxyproxy-basic/developers?src=api
+      </meet_developers>
+    </contribution_data>    <developer_comments>Please report bugs to &lt;a href=&#34;http://outgoing.mozilla.org/v1/2bb2df4925a17d6063fec35ce6f06baef12fc654/http%3A//forums.getfoxyproxy.org&#34; rel=&#34;nofollow&#34;&gt;http://forums.getfoxyproxy.org&lt;/a&gt;</developer_comments>
+    <reviews num="20">
+      https://addons.mozilla.org/it/firefox/addon/foxyproxy-basic/reviews/?src=api
+    </reviews>
+    <total_downloads>718796</total_downloads>
+    <weekly_downloads>3784</weekly_downloads>
+    <daily_users>36468</daily_users>
+    <created epoch="1255621404">
+      2009-10-15T15:43:24Z
+    </created>
+    <last_updated epoch="1359368888">
+      2013-01-28T10:28:08Z
+    </last_updated>
+    <homepage>http://getfoxyproxy.org</homepage>
+    <support>http://forums.getfoxyproxy.org/</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="6313">
+  <name>eBay Toolbar - FoxyBay</name>
+  <type id="1">estensioni</type>
+  <guid>jorge@zeropaid.com</guid>
+  <slug>ebay-toolbar-foxybay</slug>
+  <version>3.1</version>
+  <status id="4">Revisione completa effettuata</status>
+  <authors>
+        <author id="627272">
+      <name>FoxyBay</name>
+      <link>https://addons.mozilla.org/it/firefox/user/627272/?src=api</link>
+    </author>      </authors>
+  <summary>The most comprehensive eBay toolbar. With FoxyBay you can specify an auction end time, auction amount, choose which eBay site to search and more! FoxyBay is spyware &amp;amp; adware free, and will NEVER ask for personal information/passwords.</summary>
+  <description>The FoxyBay toolbar allows you to search and access all of your favorite places on eBay quickly &amp;amp; more effectively then other FireFox eBay add-on. With FoxyBay you can specify an auction end time, auction amount and choose which eBay site to search.
+
+Now Searches 
+ - eBay United States
+ - eBay Australia
+ - eBay Belgium
+ - eBay Canada
+ - eBay France
+ - eBay India
+ - eBay Netherlands
+ - eBay United Kingdom
+
+FoxyBay is spyware &amp;amp; adware free, and will not slow down your browser in any way.
+
+FoxyBay Features
+ - Specify Auction Ending Time
+ - Specify Auction Amount
+ - Specify eBay Site to Search
+ - Spyware Free
+ - Fast &amp;amp; Safe
+
+The FoxyBay toolbar does not ask you for any eBay account information. FoxyBay.com does log anonymous search history.  This information is used soley (exclusively) by FoxyBay.com and will not be sold or distributed. The anonymous search history is used to populate the FoxyBay.com website. The FoxyBay toolbar is in no way affiliated with eBay Inc or eBay.com.</description><license>
+    <name>Licenza Mozilla Public License, versione 1.1</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/6/6313-64.png?modified=1322696304</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/6/6313-32.png?modified=1322696304</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>1.5</min_version>
+      <max_version>19.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="700" height="113">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/39/39293.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="32">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/39/39293.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>The default view of FoxyBay when installed.</caption></preview><preview position="1">
+      <full type="image/png" width="384" height="271">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/39/39294.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="141">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/39/39294.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Search preferences and help tabs. Select any eBay site and search instantly. Find the preference window by clicking on the eBay logo in the toolbar.</caption></preview><preview position="1">
+      <full type="image/png" width="498" height="443">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/39/39296.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="168" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/39/39296.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Easy access to switch eBay sites. To choose a eBay site, just click on the eBay logo.</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="113">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/39/39297.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="32">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/39/39297.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Default view of FoxyBay</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/it/firefox/addon/ebay-toolbar-foxybay/?src=api</learnmore><install hash="sha256:1c596afc6c720fe3a941a0454cff4c01ce43051da16a72f42c9da50d14988f46"
+    os="ALL"
+    size="16786">https://addons.mozilla.org/firefox/downloads/file/178402/ebay_toolbar_foxybay-3.1-fx.xpi?src=api</install>
+      <developer_comments></developer_comments>
+    <reviews num="10">
+      https://addons.mozilla.org/it/firefox/addon/ebay-toolbar-foxybay/reviews/?src=api
+    </reviews>
+    <total_downloads>57523</total_downloads>
+    <weekly_downloads>19</weekly_downloads>
+    <daily_users>622</daily_users>
+    <created epoch="1199951658">
+      2008-01-10T07:54:18Z
+    </created>
+    <last_updated epoch="1353368048">
+      2012-11-19T23:34:08Z
+    </last_updated>
+    <homepage>http://www.foxybay.com</homepage>
+    <support>http://www.foxybay.com</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="219">
+  <name>FoxyTunes</name>
+  <type id="1">estensioni</type>
+  <guid>{463F6CA5-EE3C-4be1-B7E6-7FEE11953374}</guid>
+  <slug>foxytunes</slug>
+  <version>4.3.2</version>
+  <status id="4">Revisione completa effettuata</status>
+  <authors>
+        <author id="3268606">
+      <name>Yahoo! Inc. </name>
+      <link>https://addons.mozilla.org/it/firefox/user/3268606/?src=api</link>
+    </author>      </authors>
+  <summary>Do you listen to Music while surfing the Web?
+
+FoxyTunes lets you control almost any media player and find lyrics, covers, videos, bios and much more with a click right from your browser.</summary>
+  <description>Do you listen to Music while surfing the Web?
+
+FoxyTunes lets you control almost any media player and find lyrics, covers, videos, bios and much more with a click right from your browser.
+
+Supports WinAmp, iTunes, Yahoo Music Engine, Pandora, foobar2000, Windows Media Player, Xbox Media Center, Musicmatch, Quintessential, J. River, jetAudio, XMPlay, MediaMonkey, Media Player Classic, Sonique, wxMusik, Real Player, XMMS, Noatun, Juk, Amarok, Music Player Daemon, Rhythmbox and many other players.
+
+Just click on the orange note and select your player.
+
+CNET Editor&#39;s Rating: 5/5 stars
+PC Magazine: Top 15 Firefox Extensions
+PC World: Top Download Picks </description><license>
+    <name>Custom License</name>
+    <url>https://addons.mozilla.org/it/firefox/addon/foxytunes/license/4.3.2</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/0/219-64.png?modified=1354023878</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/0/219-32.png?modified=1354023878</icon>
+  <compatible_applications><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>1.0</min_version>
+      <max_version>1.0</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>1.5</min_version>
+      <max_version>3.1.*</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>2.0</min_version>
+      <max_version>5.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20256.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20256.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>FoxyTunes</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/12/12887.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/12/12887.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/12/12888.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/12/12888.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/12/12889.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/12/12889.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/12/12890.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/12/12890.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/12/12891.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/12/12891.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/12/12892.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/12/12892.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/33/33406.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/33/33406.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/it/firefox/addon/foxytunes/?src=api</learnmore><install hash="sha256:dff6d17132b929d7a32ff9460ea911158c18d7ef2b16c8a1acc3c5e26e8bf9f3"
+    os="ALL"
+    size="1169408">https://addons.mozilla.org/firefox/downloads/file/126820/foxytunes-4.3.2-tb+fx+sm.xpi?src=api</install>
+      <developer_comments>We&#39;d like to thank the thousands of users who sent us their suggestions, comments, translations, skins and letting us know just how much they love FoxyTunes.
+
+Many issues reported here can be easily solved by either looking at the FoxyTunes FAQ (&lt;a href=&#34;http://outgoing.mozilla.org/v1/982951846cc59678799d6306dc46ea4dd84c0525/http%3A//foxytunes.com/firefox/faq.html&#34;&gt;http://foxytunes.com/firefox/faq.html&lt;/a&gt;) or by directly contacting us (&lt;a href=&#34;http://outgoing.mozilla.org/v1/e46a22991eadff0a5b7a58cb65f3c3576ceb23f9/http%3A//foxytunes.com/feedback.html&#34;&gt;http://foxytunes.com/feedback.html&lt;/a&gt;). If you contact us instead of just reporting your problem here, we will do our best to resolve it.
+
+Keep on rocking!  
+-The FoxyTeam
+</developer_comments>
+    <reviews num="524">
+      https://addons.mozilla.org/it/firefox/addon/foxytunes/reviews/?src=api
+    </reviews>
+    <total_downloads>12005265</total_downloads>
+    <weekly_downloads>1124</weekly_downloads>
+    <daily_users>54951</daily_users>
+    <created epoch="1092761179">
+      2004-08-17T16:46:19Z
+    </created>
+    <last_updated epoch="1332458738">
+      2012-03-22T23:25:38Z
+    </last_updated>
+    <homepage>http://www.foxytunes.com/</homepage>
+    <support>http://www.foxytunes.com/feedback.html</support>
+    <featured>0</featured>
+        <performance>
+            <application name="fx" version="8.0.1">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.26" average="481.11"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="548.47" average="554.32"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="637.58" average="646.95"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="6.0.2">
+                <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="654.42" average="638.95"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="519.79" average="528.21"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="476.21" average="478.58"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="7.0.1">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="547.16" average="651.74"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.68" average="598.95"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="667.37" average="731.21"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="671.16" average="658.26"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="8.0">
+                <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="624.84" average="648.68"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="541.58" average="564.89"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="477.95" average="485.11"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="657.21" average="662.32"
+                  above_threshold="false" />
+        </platform></application></performance>
+    </addon>
+  <addon id="56124">
+  <name>FoxySpider</name>
+  <type id="1">estensioni</type>
+  <guid>{75df891f-e299-4725-b14f-7d52f086dea2}</guid>
+  <slug>foxyspider</slug>
+  <version>1.5.2</version>
+  <status id="4">Revisione completa effettuata</status>
+  <authors>
+        <author id="9597">
+      <name>foxyspider</name>
+      <link>https://addons.mozilla.org/it/firefox/user/9597/?src=api</link>
+    </author>      </authors>
+  <summary>FoxySpider is your personal web crawler! It can crawl into any website and find what you really want (video clips, images, music files, etc.). FoxySpider displays the located items in a well-structured thumbnail gallery for ease of use.</summary>
+  <description>With FoxySpider you can:
+&lt;ul&gt;&lt;li&gt;Get all photos from an entire website&lt;/li&gt;&lt;li&gt;Get all video clips from an entire website&lt;/li&gt;&lt;li&gt;Get all audio files from an entire website&lt;/li&gt;&lt;li&gt;Well, actually get any file type you want from an entire website&lt;/li&gt;&lt;/ul&gt;FoxySpider can be used to create a thumbnail gallery containing links to rich media files of any file types you are interested in. It can also crawl deep to any level on a website and display the applicable files it found in the same gallery. FoxySpider is useful for different media content pages (music, video, images, documents), thumbnail gallery post (TGP) sites, podcasts. You can narrow and expand the search to support exactly what you want.
+Once the thumbnail gallery is created you can view, download or share (on Facebook and Twitter) every file that was fetched by FoxySpider.
+
+&lt;strong&gt;Find FoxySpider on &lt;a href=&#34;http://outgoing.mozilla.org/v1/d139581e32f8ec12181135b18609deb1d29da186/http%3A//www.facebook.com/FoxySpider&#34; rel=&#34;nofollow&#34;&gt;Facebook&lt;/a&gt;&lt;/strong&gt;
+&lt;strong&gt;Follow FoxySpider on &lt;a href=&#34;http://outgoing.mozilla.org/v1/79037055ec0cef453c1ff2e681e66edba5753800/http%3A//www.twitter.com/FoxySpider&#34; rel=&#34;nofollow&#34;&gt;Twitter&lt;/a&gt;&lt;/strong&gt;</description><license>
+    <name>Licenza Mozilla Public License, versione 1.1</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/56/56124-64.png?modified=1353493517</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/56/56124-32.png?modified=1353493517</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>2.0</min_version>
+      <max_version>21.0a1</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="658" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/40/40115.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="188" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/40/40115.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="300" height="225">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/40/40392.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/40/40392.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>FoxySpider can be initiated from the toolbar button</caption></preview><preview position="1">
+      <full type="image/png" width="300" height="225">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/40/40393.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/40/40393.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>FoxySpider can also be initiated from the context menu</caption></preview><preview position="1">
+      <full type="image/png" width="300" height="225">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/40/40818.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/40/40818.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>FoxySpider can export a gallery it created to an HTML file</caption></preview><preview position="1">
+      <full type="image/png" width="268" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/41/41462.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="76" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/41/41462.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>FoxySpider Preferences (2) - crawler related configuration</caption></preview><preview position="1">
+      <full type="image/png" width="268" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/41/41463.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="76" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/41/41463.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>FoxySpider Preferences (1) - gallery related configuration</caption></preview><preview position="1">
+      <full type="image/png" width="268" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/44/44504.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="76" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/44/44504.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>FoxySpider Preferences (3) - content related configuration (what do you want FoxySpider to find for you?)</caption></preview><preview position="1">
+      <full type="image/png" width="268" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/47/47906.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="76" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/47/47906.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>FoxySpider Preferences (4) - filters configuration (what links do you want FoxySpider not to explore?)</caption></preview><preview position="1">
+      <full type="image/png" width="320" height="242">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/50/50807.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="198" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/50/50807.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>FoxySpider&#39;s advance filters - these are crawl session specific filters</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/it/firefox/addon/foxyspider/?src=api</learnmore><install hash="sha256:b4b0b1764db9c406a97fae79e7e4d101ae7769554bdd3ee8e0caa6f7568c8802"
+    os="ALL"
+    size="87778">https://addons.mozilla.org/firefox/downloads/file/187888/foxyspider-1.5.2-fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/it/firefox/addon/foxyspider/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="4.95">
+            US$ 4,95
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/it/firefox/addon/foxyspider/developers?src=api
+      </meet_developers>
+    </contribution_data>    <developer_comments>Thank you for considering FoxySpider! This add-on is very powerful if used correctly. However, you might get an empty galley, if FoxySpider is misconfigured or if there are no items to display in the gallery. An empty gallery does not necessarily mean a bug, and I will be happy to assist to resolve any misunderstanding.
+&lt;ul&gt;&lt;li&gt;FoxySpider is very configurable, from the add-on options.&lt;/li&gt;&lt;li&gt;Under &#34;content&#34; tab you can specify what file types you want FoxySpider to fetch for you. &#34;Linked files&#34; are files that in the original page you have to click in order to access. &#34;Embedded files&#34; are files that simply exist in the original page without any need to click on them (currently only the most obvious &#34;embedded files&#34; are supported - images). However, all the files in the gallery that FoxySpider creates have the same look-and-feel, whether they are &#34;linked files&#34; or &#34;embedded files&#34;.&lt;/li&gt;&lt;li&gt;Set &#34;Ignore files without thumbnails&#34; to see only files that a thumbnail can be shown for in the gallery. Unset this option to also see files without an image. A generic thumbnail will be used instead.&lt;/li&gt;&lt;li&gt;You can press any item in the gallery once it appears. It will not interfere with the creation of the gallery!&lt;/li&gt;&lt;li&gt;It is recommended to &#34;Open files in: The background&#34; for file types that your browser is set to download automatically (for example video files). Use &#34;Open files in: New window&#34; for file types that your browser is set to handle internally (for example image files).&lt;/li&gt;&lt;li&gt;If you are satisfied with a gallery and would like to save it as an HTML file, select &#34;Save FoxySpider Gallery&#34; from the context menu (right click menu).&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;Recursive crawling:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;You can configure how deep your FoxySpider crawls (&#34;crawl depth&#34;). Use this wisely because it is very easy to get to astronomical number of pages. Crawl depth = 0 - scans only the original page; Crawl depth = 1 - scans the original page and the pages linked by it; Crawl depth = 2 - scans the original page, the pages linked by it and also the pages linked by them; Crawl depth = 3 - well, you got the picture...&lt;/li&gt;&lt;li&gt;To protect FoxySpider from scanning millions of pages you can (but do not have to) limit the maximal number of pages you want FoxySpider to scan or/and the maximal number of images in the gallery. Crawl is stopped when either of the limits is reached.&lt;/li&gt;&lt;li&gt;There are other ways to limit the crawl scope using the advance filters, available by middle-clicking the FoxySpider&#39;s button.&lt;/li&gt;&lt;/ul&gt;</developer_comments>
+    <reviews num="31">
+      https://addons.mozilla.org/it/firefox/addon/foxyspider/reviews/?src=api
+    </reviews>
+    <total_downloads>175503</total_downloads>
+    <weekly_downloads>806</weekly_downloads>
+    <daily_users>9047</daily_users>
+    <created epoch="1261559107">
+      2009-12-23T09:05:07Z
+    </created>
+    <last_updated epoch="1359496558">
+      2013-01-29T21:55:58Z
+    </last_updated>
+    <homepage>http://www.foxyspider.com/</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="5791">
+  <name>Flagfox</name>
+  <type id="1">estensioni</type>
+  <guid>{1018e4d6-728f-4b20-ad56-37578a4de76b}</guid>
+  <slug>flagfox</slug>
+  <version>4.2.7</version>
+  <status id="4">Revisione completa effettuata</status>
+  <authors>
+        <author id="235431">
+      <name>Dave G</name>
+      <link>https://addons.mozilla.org/it/firefox/user/235431/?src=api</link>
+    </author>      </authors>
+  <summary>Mostra l&#39;ubicazione del server mediante la bandiera nazionale</summary>
+  <description>Flagfox è un&#39;estensione che mostra una bandiera indicante l&#39;ubicazione fisica del server visitato. Conoscendo il paese dove effettui la connessione permette di sapere quale sia la lingua preferita e permette di avere maggior conoscenza degli aspetti legali che nel paese vengono applicati. Informazioni aggiuntive possono essere ottenute mediante servizi esterni e gli utenti possono aggiungere le proprie azioni, che saranno disponibili cliccando sull&#39;icona della bandiera o mediante tasti di scelta rapida.
+
+Cliccando sull&#39;icona verrà lanciata l&#39;azione di default &lt;a href=&#34;http://outgoing.mozilla.org/v1/f1b24206bef4179bc71fd593a19dc2d2b1b37819/http%3A//geoip.flagfox.net/&#34; rel=&#34;nofollow&#34;&gt;Geotool&lt;/a&gt;, il quale fornisce una mappa dettagliata della città dove il server è ubicato ed altre informazioni quale l&#39;ora locale e l&#39;&lt;abbr title=&#34;Internet Service Provider&#34;&gt;ISP&lt;/abbr&gt;. Altre azioni sono disponibili in una varietà di aspetti quali:
+
+* Sicurezza del sito e malware
+* Ricerca di siti similari e recensioni
+* Traduzione automatica nel proprio linguaggio
+* &lt;abbr title=&#34;Search Engine Optimization&#34;&gt;SEO&lt;/abbr&gt; e ricerca per sviluppo Web
+* Diagnostica su ping e traceroute
+* Informazioni Whois e su &lt;abbr title=&#34;Domain Name Service&#34;&gt;DNS&lt;/abbr&gt;
+* Validazione della pagina
+* Servizio di abbreviazione URL
+* Copia dell&#39;indirizzo &lt;abbr title=&#34;Internet Protocol&#34;&gt;IP&lt;/abbr&gt; e di altre informazioni
+* o la creazione di proprie azioni!
+
+Flagfox è semplice, discreto ed utilizza poche risorse. Per proteggere la tua privacy le richieste di lookup sono fatte localmente e non sono basate su un server esterno; funziona utilizzando un database locale degli indirizzi IP, ovvero una mappa della struttura fisica di Internet fornita da &lt;a href=&#34;http://outgoing.mozilla.org/v1/46be78234bfdd8b3e266a7ae4e816b512c74d763/http%3A//maxmind.com/&#34; rel=&#34;nofollow&#34;&gt;Maxmind&lt;/a&gt;. In  questo modo la bandiera mostra la nazionalità del server a cui ci si connette e non semplicemente quella del suffisso del dominio, che quindi può essere diversa. Flagfox è aggiornato mensilmente per mantenere il proprio database locale consistente.</description><license>
+    <name>Custom License</name>
+    <url>https://addons.mozilla.org/it/firefox/addon/flagfox/license/4.2.7</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/5/5791-64.png?modified=1352732621</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/5/5791-32.png?modified=1352732621</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.6</min_version>
+      <max_version>21.0a2</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.1</min_version>
+      <max_version>2.18a2</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="300" height="225">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/42/42668.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/42/42668.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Flagfox shows a flag icon in the location bar indicating the physical location of the current website&#39;s server. The right-click menu provides a customizable list of helpful actions to look up information about the page, server, or organization.</caption></preview><preview position="1">
+      <full type="image/png" width="656" height="480">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/42/42670.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="146">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/42/42670.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Clicking the flag icon performs the default action, Geotool, which shows a map with a more precise server location and gives additional detailed information.</caption></preview><preview position="2">
+      <full type="" width="410" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/58/58447.png?src=api&amp;modified=1306780827
+      </full>
+      <thumbnail type="" width="117" height="149">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/58/58447.png?src=api&amp;modified=1306780827
+      </thumbnail><caption>The Flagfox options dialog allows you to pick from an array of many more actions to add to the flag&#39;s right-click menu or set to shortcuts. Advanced users can create their own actions.</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/it/firefox/addon/flagfox/?src=api</learnmore><install hash="sha256:9d607f15c4332d0b60096f7abb4466c6ab2bfa58615330da35ecbcb4fae5826d"
+    os="ALL"
+    size="747925">https://addons.mozilla.org/firefox/downloads/file/197614/flagfox-4.2.7-fx+sm.xpi?src=api</install>
+      <developer_comments>&lt;b&gt;Supported locales:&lt;/b&gt;  English, Français, Italiano, Español, Español (Argentina), Português, Português (Brasil), Deutsch, Nederlands, Dansk, Čeština, polski, lietuvių kalba, Latviešu, Magyar, Hrvatski, română, Íslenska, Svenska, suomi, Українська, Русский, Български, Српски, Ελληνικά, Türkçe, Հայերեն, עברית ,فارسی ,العربية, Tiếng Việt, 中文 (简体), 正體中文 (繁體), 한국어, 日本語
+
+&lt;i&gt;Here&#39;s a short FAQ with questions that are asked frequently.&lt;/i&gt; Read the full &lt;a href=&#34;http://outgoing.mozilla.org/v1/639c7719a513398c1009948f5fe768f1812f01bb/http%3A//flagfox.net/faq&#34; rel=&#34;nofollow&#34;&gt;Flagfox FAQ&lt;/a&gt; for more.
+
+&lt;b&gt;Can Flagfox be useful for security?&lt;/b&gt;
+Flagfox can be used as a warning as to when a server isn&#39;t where it should be. If you end up at a site claiming to be an American bank, and it shows as Nigerian, then you may want to think twice. However, while this can be useful, Flagfox should not be relied on for this as a scam site can be in America just as easily as anywhere else.
+
+&lt;b&gt;Is Flagfox sending information about where I&#39;m browsing to some server?&lt;/b&gt;
+Not during normal browsing, no. Flagfox uses an internal database of IP address locations and does not send anything anywhere during normal browsing. If you use one of the lookup features, such as Geotool or whois, then that server will be sent the necessary info (IP address or domain name) that one time to do the lookup. There are some other extensions that have some features similar to Flagfox and they do, however, send all of your browsing habits to their server to provide their information. Flagfox respects users&#39; privacy and makes a point to not do that. (see the &lt;a href=&#34;https://addons.mozilla.org/addons/policy/0/5791&#34; rel=&#34;nofollow&#34;&gt;Flagfox privacy policy&lt;/a&gt;)
+
+&lt;b&gt;It&#39;s showing the wrong flag!&lt;/b&gt;
+Maybe, but probably not. Sites can be hosted anywhere, they can have domains of any nationality, and can have multiple cache servers sending out the same site from different locations. Flagfox looks up the actual location of the server you&#39;re connected to using its IP address and a database maintained by &lt;a href=&#34;http://outgoing.mozilla.org/v1/46be78234bfdd8b3e266a7ae4e816b512c74d763/http%3A//maxmind.com/&#34; rel=&#34;nofollow&#34;&gt;Maxmind&lt;/a&gt;, which may or may not be where you&#39;d expect it to be. (&lt;a href=&#34;http://outgoing.mozilla.org/v1/2a7deb224024933182499484dbd26154e5305ffc/http%3A//flagfox.servehttp.com/forum/viewtopic.php%3Ff=3&amp;amp;t=214&#34; rel=&#34;nofollow&#34;&gt;read this&lt;/a&gt; for more info)
+
+&lt;b&gt;One of the actions does something I don&#39;t like.&lt;/b&gt;
+Each action is its own site; we certainly don&#39;t run them all, just Geotool. Use &lt;a href=&#34;https://addons.mozilla.org/addon/1865/&#34; rel=&#34;nofollow&#34;&gt;Adblock Plus&lt;/a&gt; to deal with any minor ads if you need to and if any action breaks or starts doing something evil please report it to us. Flagfox is quite configurable, so if you don&#39;t like the actions included feel free to use your own. You can get more and suggest your own on our &lt;a href=&#34;http://outgoing.mozilla.org/v1/e7abe9e6c7b624050185ad230423f019d1f4efb5/http%3A//flagfox.net/forum&#34; rel=&#34;nofollow&#34;&gt;forums&lt;/a&gt;.
+
+&lt;b&gt;Does Flagfox support IPv6 yet?&lt;/b&gt;
+Yes! Flagfox 4.1+ now has full IPv6 support and monthly updates now contain both IPv4 and IPv6 database updates.
+
+&lt;b&gt;Don&#39;t post bug reports, support requests, or feature suggestions in reviews!&lt;/b&gt; This is NOT a forum and mods will eventually delete non-review reviews. Post any questions, problems, or suggestions on our actual &lt;a href=&#34;http://outgoing.mozilla.org/v1/e7abe9e6c7b624050185ad230423f019d1f4efb5/http%3A//flagfox.net/forum&#34; rel=&#34;nofollow&#34;&gt;forums&lt;/a&gt; or &lt;a href=&#34;http://outgoing.mozilla.org/v1/3a798b5bf3d71bd124d1452c6a73b5e9ebcaf774/mailto%3Adaveg.extensionfeedback%40gmail.com&#34; rel=&#34;nofollow&#34;&gt;email me&lt;/a&gt; directly.</developer_comments>
+    <reviews num="495">
+      https://addons.mozilla.org/it/firefox/addon/flagfox/reviews/?src=api
+    </reviews>
+    <total_downloads>19691907</total_downloads>
+    <weekly_downloads>40064</weekly_downloads>
+    <daily_users>1257553</daily_users>
+    <created epoch="1191364219">
+      2007-10-02T22:30:19Z
+    </created>
+    <last_updated epoch="1363195759">
+      2013-03-13T17:29:19Z
+    </last_updated>
+    <homepage>http://blog.flagfox.net/</homepage>
+    <support>http://flagfox.net/forum</support>
+    <featured>1</featured>
+        <performance>
+            <application name="fx" version="8.0.1">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.26" average="480.53"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="548.47" average="548.37"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="637.58" average="640.95"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="6.0.2">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="519.79" average="603.37"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="476.21" average="572.16"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="654.42" average="661.74"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="7.0.1">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="547.16" average="612.63"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.68" average="587.84"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="667.37" average="687.0"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="671.16" average="665.21"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="8.0">
+                <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="624.84" average="638.63"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="541.58" average="544.89"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="477.95" average="485.47"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="657.21" average="657.68"
+                  above_threshold="false" />
+        </platform></application></performance>
+    </addon>
+  <addon id="48747">
+  <name>FoxyDeal</name>
+  <type id="1">estensioni</type>
+  <guid>{F58A62EB-38DC-43C4-A539-DC52E135208D}</guid>
+  <slug>foxydeal</slug>
+  <version>4.0.0</version>
+  <status id="4">Revisione completa effettuata</status>
+  <authors>
+        <author id="2781644">
+      <name>R&amp;E Media</name>
+      <link>https://addons.mozilla.org/it/firefox/user/2781644/?src=api</link>
+    </author>      </authors>
+  <summary>FoxyDeal looks for the lowest price while you are shopping online. When
+FoxyDeal finds the product you are looking for in another online shop for a
+lower price you will get a discreet notification in your browser. The easy way to
+save money!</summary>
+  <description>&lt;strong&gt;✔ The easy way to save money!&lt;/strong&gt;
+
+Saving money in online shopping? No problem with FoxyDeal!
+The useful browser extension is looking out for the lowest price while shopping in the internet. The clever price comparison add-on shows you – when you are surfing on Amazon &amp;amp; co – where you can find the wanted product lower priced and offered by other suppliers. Using Foxydeal helps you to save real money in a simple way!
+
+&lt;strong&gt;✔ Vouchers, coupons and discounts for more than 5,200 online shops!&lt;/strong&gt;
+
+Clothes, furniture, TVs, computers, toys, cameras and more. With Foxydeal you don’t only buy all products for the lowest price available but you also get the best discounts und most up-to-date vouchers as well as the best deals in thousands of online shops. Like paradise for everyone who likes to save money.
+
+&lt;strong&gt;✔ FoxyDeal informs you directly while browsing on the internet&lt;/strong&gt;
+
+As soon as FoxyDeal finds the product you are looking for in another online shop for a lower price you get a discreet notification in your browser. FoxyDeal shows you the link to the shop that offers the desired product for a lower price and calculates the money you can save. You don’t have to waste time while searching for products – FoxyDeal finds the best deal for you!</description><license>
+    <name>Custom License</name>
+    <url>https://addons.mozilla.org/it/firefox/addon/foxydeal/license/4.0.0</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/48/48747-64.png?modified=1361873516</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/48/48747-32.png?modified=1361873516</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>12.0</min_version>
+      <max_version>19.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula>END-USER LICENSE AGREEMENT
+GENERAL
+
+IMPORTANT - PLEASE READ THIS END-USER LICENSE AGREEMENT (&#34;EULA&#34;) CAREFULLY. BY DOWNLOADING, ACCESSING, INSTALLING OR USING FOXYDEAL, YOU AGREE TO THE TERMS OF THIS EULA. IF YOU DO NOT AGREE TO THE TERMS OF THIS EULA, DO NOT DOWNLOAD, INSTALL, ACCESS OR USE FOXYDEAL. THIS AGREEMENT CONTAINS DISCLAIMERS OF WARRANTIES AND LIMITATIONS OF LIABILITY AND AN EXCLUSIVE REMEDY. THESE PROVISIONS FORM AN ESSENTIAL BASIS OF OUR AGREEMENT
+GENERAL
+
+This EULA is a legal agreement between you and R&amp;amp;E Media GmbH (&#34;We&#34;, &#34;Our&#34;, &#34;Us&#34;, “FoxyDeal”, “Add-on”, “Toolbar” or &#34;REM&#34;). This EULA governs the FoxyDeal Add-on and your use of the FoxyDeal Add-on.
+
+The FoxyDeal software is defined as a downloadable toolbar (or, in some browsers, an extension or add-on) or other similar term used to describe downloadable software (including configuration and data files) that provides you access to coupons, discounts and special deals based upon sites you visit where the FoxyDeal Add-on is installed and is enabled.
+
+When you use your browser to search for products on certain retail websites, the Add-on enables your browser automatically to check other similar sites to see if other retailers are offering the same product at a lower price. If that product is available on a different site at a lower price the Add-on will notify you of the lower priced product and provides you with a link to the third party website offering the lower priced product.
+
+REM does not collect any personally identifiable information from you through your downloading and use of the Add-on (see also “Privacy Policy”).
+GRANT OF LICENSE
+
+Subject to the terms of this EULA, REM grants to you a revocable, non-exclusive, non-transferable, limited license to install and use the Add-on for personal use only and in accordance with the Terms and Conditions. REM reserves all ownership rights, interests and title of and to the Add-on, including all intellectual property rights in and to the Add-on. ALL RIGHTS NOT EXPRESSLY GRANTED HEREIN ARE RESERVED BY REM. As between you and REM, all title and copyrights in and to the Add-on (including but not limited to any images, photographs, animations, video, audio, music, text, and other features incorporated in the Add-on, but excluding any trademarks or copyrighted images or text owned by third parties, which belong to the respective third parties), the accompanying printed materials, and any copies of the Add-on, are owned by REM. Except as expressly permitted by this EULA, you may not copy the Add-on or any other materials related to the Add-on. You agree: (i) to hold in the strictest confidence all program code and other elements of the Add-on, (ii) not to, directly or indirectly, sublicense, rent, sell or lease any portion of the Add-on; (iii) not to, directly or indirectly, reverse engineer, decompile, disassemble, modify, translate, make any attempt to discover the code of the Add-on or create derivative works; (iv) not to, directly or indirectly, copy, reproduce, distribute, manufacture, duplicate, reveal, report, publish, disclose, cause to be disclosed, or otherwise transfer the Add-on to any third party, and (v) not to make use of the Add-on other than for the permitted purposes under this EULA.
+DISCLAIMER OF WARRANTY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, REM AND ITS AFFILIATE STORES, SUPPLIERS, AFFILIATES, DISTRIBUTORS AND ADVERTISERS (COLLECTIVELY, THE &#34;AFFILIATES&#34;) AND THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, AGENTS AND REPRESENTATIVES EXPRESSLY DISCLAIM ALL WARRANTIES AND CONDITIONS OF ANY KIND, EITHER EXPRESS, STATUTORY OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, ACCURACY, COMPLETENESS, ENJOYMENT, QUALITY AND NON-INFRINGEMENT WITH REGARD TO THE Add-on. THERE ARE NO WARRANTIES NOT EXPRESSLY STATED IN THIS EULA. THE ADD-ON IS PROVIDED &#34;AS IS&#34; WITH &#34;ALL FAULTS&#34; AND &#34;AS AVAILABLE.&#34; THERE ARE NO WARRANTIES THAT YOUR ACCESS TO OR USE OF THE ADD-ON OR ANY PART THEREOF WILL BE UNINTERRUPTED, ERROR FREE OR COMPLETELY SECURE. THIS LIMITED WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS. YOU MAY HAVE OTHERS, WHICH VARY FROM STATE/JURISDICTION TO STATE/JURISDICTION. ACCORDINGLY, YOUR USE OF THE ADD-ON IS AT YOUR OWN RISK, INCLUDING WITHOUT LIMIT ALL RISKS ASSOCIATED WITH THE ADD-ON NOT WORKING AS INTENDED, OR DAMAGING ANY HARDWARE OR OTHER SOFTWARE, OR FAILURE OF THE ADD-ON RESULTING FROM ACCIDENT, ABUSE, MISAPPLICATION, ABNORMAL USE OR A VIRUS.
+PROHIBITED ACTIONS
+
+You are prohibited from making any changes or asking others to make changes to the Add-on, or using the Add-on together with any third party products or services. Any enhancements, adaptations, alterations or modifications to the Add-on shall remain the exclusive property of REM.
+You shall not use the Add-on to provide or send information or content that is knowingly false and/or defamatory, inaccurate, abusive, vulgar, hateful, harassing, obscene, profane, sexually oriented, threatening, invasive of a person&#39;s privacy or otherwise violates any applicable law, rules, regulations or REM policies. You shall not use the Add-on to introduce any virus, worm, built-in or use-driven destruction mechanism, injurious or damaging algorithm, time bomb, trojan horse or other software or hardware for any reason.
+REM may in its sole discretion and for any reason at any time without notice discontinue your right to access and use the Add-on. Without prejudice to any of our other rights or remedies, we reserve the right immediately to terminate this EULA in the event you violate this EULA, and to investigate, involve and cooperate with appropriate authorities regarding any illegal or unauthorized activities involving the Add-on or this EULA.
+You must be at least 18 years of age in order to enter into this EULA for the licensing of the Add-on and install and use of the Add-on. As a condition of your using our Add-on, you represent and warrant that you are at least 18 years old.
+REM has no control over third party sites which you may access, including those sites which are linked to our Site. Therefore, REM is not responsible for the content or function of any other site, and disclaims any liability for any aspects of any sites you access via direct access or access through our Site or Add-on functionality. You may be subject to terms and conditions by such third party sites.
+COOKIES
+
+If the end user chooses to click on an advertiser offer they will be redirected to the partner&#39;s (aka advertiser&#39;s) site via affiliate cookies.
+
+UNINSTALLING THE ADD-ON
+
+You can uninstall the Add-on at any time and at your discretion by following instructions from your browser vendor creates no liability or responsibility of REM if you are unable to uninstall the Add-on. You agree to accept all risks if you uninstall the Add-on.
+If you encounter difficulties removing the Add-on, please contact us at info(at)&lt;a href=&#34;http://outgoing.mozilla.org/v1/0a50842588cb054377c6494228e924a5ba6c8f7e/http%3A//foxydeal.com&#34; rel=&#34;nofollow&#34;&gt;foxydeal.com&lt;/a&gt;.
+
+UPDATES TO THE ADD-ON AND MODIFICATIONS TO EULA
+
+Our Add-on does not automatically upgrade; however, REM may, in its sole discretion, update or upgrade the Add-on (including installed Add-ons) at any time without notice. You are responsible for ensuring that you are using the most current version of the Add-on. REM shall have no responsibility or liability for the use of the Add-on other than the most recently available Add-on.
+REM reserves the right to make changes to this EULA. Please check this page periodically for changes. Any such modification constitutes a successor EULA. Continued use of the Add-on indicates your acceptance of such successor EULAs. If you do not accept any such successor EULAs you must uninstall the Add-on from your computer. Failure to uninstall the Add-on constitutes acceptance of the successor EULA.
+
+TERMINATION OF EULA
+
+You may terminate this EULA at any time by uninstalling the Add-on and destroying all copies of the Add-on. This EULA is terminated automatically if you do not comply with all of the terms and conditions of the EULA. REM also may terminate this EULA at any time for any reason, without notice, in its sole discretion. In the event that the EULA is terminated for any reason, your rights to use the Add-on will immediately cease and you must uninstall the Add-on and all copies of the Add-on must be destroyed.
+
+YOU ARE RESPONSIBLE FOR YOUR ACTIVITIES
+
+You are fully responsible for your activities using the Add-on. You shall not use the Add-on in any way that is unlawful or that harms us or any other party in any way.
+
+EXPORT RESTRICTIONS
+
+You acknowledge that the Add-on licensed hereunder is subject to the export control laws and regulations of the United States. You confirm that with respect to the Add-on, you will not export or re-export it, directly or indirectly, to any countries that are subject to German (FRG) export restrictions. You further acknowledge that the Add-on may include technical data subject to export and re-export restrictions imposed by German (FRG) law. You agree to comply with all applicable international and national laws that apply to the Add-on, as well as end-user, end-use and destination restrictions issued by FRG and other governments.
+
+GENERAL TERMS OF EULA
+
+The laws of Germany govern the performance and interpretation of this EULA, without regard to any conflicts of laws provisions.
+This EULA, as it may be modified from time to time, constitutes the entire agreement under which REM allows you to use the Add-on. If there are any provisions or clauses in this EULA which may now or in the future be held to be illegal or invalid, only those specific terms shall be deemed unenforceable and the remainder of the EULA shall remain in force.
+In addition to any other limitations which may be set forth herein, REM shall not be responsible for events which are out of the control of REM and which negatively impact the performance or use of the Add-on, such as acts of God, acts by governmental authorities, or other acts not within the control of REM.
+The terms of this EULA are in addition to the terms of the “Terms Of Service” which you agreed to when you install the Add-on. In the event of any conflict between the terms of this EULA and the terms of the “Terms Of Service”, the terms of this EULA shall prevail.
+
+DISCLAIMER
+
+The Add-on and information retrieved by it including any information regarding or relating to third party products and services, is provided “AS IS” and on an “AS AVAILABLE” basis. To the extent permitted by law, REM excludes all representations and warranties (whether express or implied by law), including the implied warranties of satisfactory quality, fitness for a particular purpose, non-infringement, compatibility, security and accuracy of the Add-on or any information retrieved by it.
+
+REM shall not be liable for any of the following losses or damage (whether such damage or losses were foreseen, foreseeable, known or otherwise): (a) loss of data; (b) loss of revenue or anticipated profits; (c) loss of business; (d) loss of opportunity; (e) loss of goodwill or injury to reputation; (f) losses suffered by third parties; or (g) any indirect, consequential, special or exemplary damages arising from the use of the Add-on regardless of the form of action.
+
+REM do not warrant that the Add-on will be uninterrupted or error free, that defects will be corrected, or free of viruses or bugs. You acknowledge that it is your responsibility to implement sufficient procedures and virus checks (including anti-virus and other security checks) to satisfy your particular requirements for the accuracy of data input and output.
+YOUR RIGHTS
+
+You may withdraw your consent for us to collect and process your data at any time by uninstalling the Add-on.
+
+CONTACT US
+
+The Add-on is brought to you by R&amp;amp;E Media GmbH, a company incorporated in Germany. If you want to know what information we hold about you or if you have any other queries in relation to this EULA, please contact us using the following information:
+Postal Address: R&amp;amp;E Media GmbH, Neumarkt 1d, 506667 Cologne, Germany
+Email: info(at)&lt;a href=&#34;http://outgoing.mozilla.org/v1/0a50842588cb054377c6494228e924a5ba6c8f7e/http%3A//foxydeal.com&#34; rel=&#34;nofollow&#34;&gt;foxydeal.com&lt;/a&gt;</eula><previews><preview position="0">
+      <full type="" width="700" height="438">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/88/88224.png?src=api&amp;modified=1359078368
+      </full>
+      <thumbnail type="" width="200" height="125">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/88/88224.png?src=api&amp;modified=1359078368
+      </thumbnail></preview><preview position="1">
+      <full type="" width="700" height="438">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/88/88226.png?src=api&amp;modified=1359078366
+      </full>
+      <thumbnail type="" width="200" height="125">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/88/88226.png?src=api&amp;modified=1359078366
+      </thumbnail></preview><preview position="2">
+      <full type="" width="700" height="438">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/88/88228.png?src=api&amp;modified=1359078368
+      </full>
+      <thumbnail type="" width="200" height="125">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/88/88228.png?src=api&amp;modified=1359078368
+      </thumbnail></preview><preview position="3">
+      <full type="" width="700" height="438">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/88/88230.png?src=api&amp;modified=1359078368
+      </full>
+      <thumbnail type="" width="200" height="125">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/88/88230.png?src=api&amp;modified=1359078368
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/it/firefox/addon/foxydeal/?src=api</learnmore><install hash="sha256:3a4b961bbd45f46e78cd1f8e9c89ce347765b7609ded1cdd1c91a4e5fd92ef78"
+    os="ALL"
+    size="211968">https://addons.mozilla.org/firefox/downloads/file/165834/foxydeal-4.0.0-fx.xpi?src=api</install>
+      <developer_comments>If you have any problems, please read the foxydeal FAQ.
+
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/c5c67be9c4c5f3eab5659024742d36777667df0f/http%3A//www.foxydeal.com/faq/&#34;&gt;http://www.foxydeal.com/faq/&lt;/a&gt;</developer_comments>
+    <reviews num="22">
+      https://addons.mozilla.org/it/firefox/addon/foxydeal/reviews/?src=api
+    </reviews>
+    <total_downloads>69421</total_downloads>
+    <weekly_downloads>306</weekly_downloads>
+    <daily_users>1873</daily_users>
+    <created epoch="1257963518">
+      2009-11-11T18:18:38Z
+    </created>
+    <last_updated epoch="1346691695">
+      2012-09-03T17:01:35Z
+    </last_updated>
+    <homepage>http://www.foxydeal.com/</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="1191">
+  <name>ReminderFox</name>
+  <type id="1">estensioni</type>
+  <guid>{ada4b710-8346-4b82-8199-5de2b400a6ae}</guid>
+  <slug>reminderfox</slug>
+  <version>2.0.2</version>
+  <status id="4">Revisione completa effettuata</status>
+  <authors>
+        <author id="5275">
+      <name>Tom Mutdosch</name>
+      <link>https://addons.mozilla.org/it/firefox/user/5275/?src=api</link>
+    </author><author id="5664">
+      <name>Daniel Lee</name>
+      <link>https://addons.mozilla.org/it/firefox/user/5664/?src=api</link>
+    </author>      </authors>
+  <summary>ReminderFox displays and manages lists of reminders and ToDo&#39;s. ReminderFox makes sure you remember all of your important dates via easy-to-use lists, alerts, and alarms, right in your browser without the need for a separate calendar program.</summary>
+  <description>ReminderFox remembers things so you don&#39;t have to!
+
+Remember all of your important dates and events (birthdays, anniversaries, bills, etc) right in your browser without having to run a separate calendar or reminder application.</description><license>
+    <name>Licenza Mozilla Public License, versione 1.1</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/1/1191-64.png?modified=1354009967</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/1/1191-32.png?modified=1354009967</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>19.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.0</min_version>
+      <max_version>2.15.*</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>3.0</min_version>
+      <max_version>18.*</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="274" height="258">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/51/51273.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="159" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/51/51273.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20336.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20336.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Tooltip displaying upcoming reminders.</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="385">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20337.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="110">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20337.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Reminder list.</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20338.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20338.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Todo&#39;s.</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20339.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20339.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Adding a new reminder.</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20341.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20341.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>ReminderFox is simple to use, yet still provides a large host of options.</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="354">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/41/41526.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="101">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/41/41526.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Subscribe to online calendars.  Easily add online calendars to ReminderFox, from your personal calendars to sports events and public holidays.</caption></preview><preview position="1">
+      <full type="image/png" width="665" height="369">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/41/41527.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="110">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/41/41527.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Tabbed alarm notification.</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/it/firefox/addon/reminderfox/?src=api</learnmore><install hash="sha256:2b1d57571559ddddc607a8a0a2dc54342d930fd3e6cebe8b35c5983ae786f05f"
+    os="ALL"
+    size="1020805">https://addons.mozilla.org/firefox/downloads/file/176904/reminderfox-2.0.2-fx+sm+tb.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/it/firefox/addon/reminderfox/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="5.00">
+            US$ 5,00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/it/firefox/addon/reminderfox/developers?src=api
+      </meet_developers>
+    </contribution_data>    <developer_comments>Please visit &lt;a href=&#34;http://outgoing.mozilla.org/v1/46095b43fe54b126aa534f8345a0bb71accd2e1b/http%3A//www.reminderfox.org&#34; rel=&#34;nofollow&#34;&gt;http://www.reminderfox.org&lt;/a&gt; for detailed how-to videos, FAQs, more information, and to report bugs.  
+
+If you have a comment or question that requires a response, please send us a note to the mailing list or our direct email for the quickest response (see the ReminderFox homepage), or add a comment in the Reviews on this page.  Thanks.</developer_comments>
+    <reviews num="375">
+      https://addons.mozilla.org/it/firefox/addon/reminderfox/reviews/?src=api
+    </reviews>
+    <total_downloads>5288205</total_downloads>
+    <weekly_downloads>8796</weekly_downloads>
+    <daily_users>248251</daily_users>
+    <created epoch="1126114308">
+      2005-09-07T17:31:48Z
+    </created>
+    <last_updated epoch="1352928831">
+      2012-11-14T21:33:51Z
+    </last_updated>
+    <homepage>http://www.reminderfox.org</homepage>
+    <support>http://www.reminderfox.org/documentation</support>
+    <featured>1</featured>
+        <performance>
+            <application name="fx" version="8.0.1">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.26" average="478.74"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="548.47" average="555.0"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="637.58" average="638.0"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="6.0.2">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="476.21" average="485.11"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="519.79" average="552.89"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="654.42" average="672.21"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="7.0.1">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.68" average="513.21"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="547.16" average="567.32"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="667.37" average="693.26"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="671.16" average="644.63"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="8.0">
+                <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="624.84" average="648.37"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="541.58" average="548.16"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="477.95" average="490.63"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="657.21" average="695.84"
+                  above_threshold="false" />
+        </platform></application></performance>
+    </addon>
+    </searchresults>

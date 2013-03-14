@@ -1,0 +1,93 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version:0.15:$
+Arch:x86-gcc3:$
+
+[PLUGINS]
+libflashplayer.so:$
+/usr/lib/adobe-flashplugin/libflashplayer.so:$
+:$
+1362097847000:0:5:$
+Shockwave Flash 11.2 r202:$
+Shockwave Flash:$
+2
+0:application/x-shockwave-flash:Shockwave Flash:swf:$
+1:application/futuresplash:FutureSplash Player:spl:$
+libnpgtpo3dautoplugin.so:$
+/opt/google/talkplugin/libnpgtpo3dautoplugin.so:$
+:$
+1362093072000:0:5:$
+Google Talk Plugin Video Accelerator version:0.1.44.24:$
+Google Talk Plugin Video Accelerator:$
+1
+0:application/vnd.gtpo3d.auto:O3D MIME::$
+libnpgoogletalk.so:$
+/opt/google/talkplugin/libnpgoogletalk.so:$
+:$
+1362093071000:0:5:$
+Version: 3.15.2.0:$
+Google Talk Plugin:$
+1
+0:application/googletalk:Google Talk Plugin:googletalk:$
+libnpo1d.so:$
+/opt/google/talkplugin/libnpo1d.so:$
+:$
+1362093071000:0:5:$
+Version: 3.15.2.0:$
+Google Talk Plugin Video Renderer:$
+1
+0:application/o1d:Google Talk Plugin Video Renderer:o1d:$
+libvlcplugin.so:$
+/usr/lib/mozilla/plugins/libvlcplugin.so:$
+:$
+1331751981000:0:5:$
+Version 2.0.5 Twoflower, copyright 1996-2011 VideoLAN and Authors<br /><a href="http://www.videolan.org/vlc/">http://www.videolan.org/vlc/</a>:$
+VLC Web Plugin:$
+44
+0:audio/mpeg:MPEG audio:mp2,mp3,mpga,mpega:$
+1:audio/x-mpeg:MPEG audio:mp2,mp3,mpga,mpega:$
+2:video/mpeg:MPEG video:mpg,mpeg,mpe:$
+3:video/x-mpeg:MPEG video:mpg,mpeg,mpe:$
+4:video/mpeg-system:MPEG video:mpg,mpeg,mpe,vob:$
+5:video/x-mpeg-system:MPEG video:mpg,mpeg,mpe,vob:$
+6:audio/mp4:MPEG-4 audio:aac,mp4,mpg4:$
+7:audio/x-m4a:MPEG-4 audio:m4a:$
+8:video/mp4:MPEG-4 video:mp4,mpg4:$
+9:application/mpeg4-iod:MPEG-4 video:mp4,mpg4:$
+10:application/mpeg4-muxcodetable:MPEG-4 video:mp4,mpg4:$
+11:video/x-m4v:MPEG-4 video:m4v:$
+12:video/x-msvideo:AVI video:avi:$
+13:application/ogg:Ogg stream:ogg:$
+14:video/ogg:Ogg video:ogv:$
+15:application/x-ogg:Ogg stream:ogg:$
+16:application/x-vlc-plugin:VLC plug-in::$
+17:video/x-ms-asf-plugin:Windows Media Video:asf,asx:$
+18:video/x-ms-asf:Windows Media Video:asf,asx:$
+19:application/x-mplayer2:Windows Media::$
+20:video/x-ms-wmv:Windows Media:wmv:$
+21:video/x-ms-wvx:Windows Media Video:wvx:$
+22:audio/x-ms-wma:Windows Media Audio:wma:$
+23:application/x-google-vlc-plugin:Google VLC plug-in::$
+24:audio/wav:WAV audio:wav:$
+25:audio/x-wav:WAV audio:wav:$
+26:audio/3gpp:3GPP audio:3gp,3gpp:$
+27:video/3gpp:3GPP video:3gp,3gpp:$
+28:audio/3gpp2:3GPP2 audio:3g2,3gpp2:$
+29:video/3gpp2:3GPP2 video:3g2,3gpp2:$
+30:video/divx:DivX video:divx:$
+31:video/flv:FLV video:flv:$
+32:video/x-flv:FLV video:flv:$
+33:application/x-matroska:Matroska video:mkv:$
+34:video/x-matroska:Matroska video:mkv:$
+35:audio/x-matroska:Matroska audio:mka:$
+36:application/xspf+xml:Playlist xspf:xspf:$
+37:audio/x-mpegurl:MPEG audio:m3u:$
+38:video/webm:WebM video:webm:$
+39:audio/webm:WebM audio:webm:$
+40:application/vnd.rn-realmedia:Real Media File:rm:$
+41:audio/x-realaudio:Real Media Audio:ra:$
+42:audio/amr:AMR audio:amr:$
+43:audio/x-flac:FLAC audio:flac:$
+
+[INVALID]
