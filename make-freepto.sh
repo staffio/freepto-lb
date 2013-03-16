@@ -14,10 +14,10 @@ fi
 device=$1
 
 # Check for bad block on the device:
-badblocks -c 10240 -s -w -t random -v "${devicel}"
+badblocks -c 10240 -s -w -t random -v "${device}"
 
 # Random data on the device:
-dd if=/dev/urandom of="${devicel}"
+dd if=/dev/urandom of="${device}"
 
 # DD THE binary.img to a usb
 dd if=binary.img of="${device}"
