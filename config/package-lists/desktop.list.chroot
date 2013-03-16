@@ -12,3 +12,5 @@ task-laptop
 task-print-server
 flashplugin-nonfree
 xfce4-utils
+# test for permission
+task-xfce-desktop

@@ -3,26 +3,46 @@ set -x
 
 # Check if user is root
 if [ "$(id -u)" != "0" ]; then
-   echo "This script must be run as root" 1>&2
+   echo "[-] This script must be run as root" 1>&2
    exit 1
 fi
 
 if [ $# != 1 ];then
-   echo "Wrong argument number"
+   echo "[-] Wrong argument number"
    exit 1
 fi
 device=$1
 
+# check dpkg
+btrfs=$(dpkg -s btrfs-tools | grep installed)
+if [ "" == "$btrfs" ]; then
+     echo "[-] No btrfs. Setting up btrfs-tools"
+     sudo apt-get --force-yes --yes install btrfs-tools
+     echo "[+] Btrfs-tools installed!"
+fi
+crypts=$(dpkg -s cryptsetup | grep installed)
+if [ "" == "$crypts" ]; then
+     echo "[-] No cryptsetup. Setting up cryptsetup"
+     sudo apt-get --force-yes --yes install cryptsetup
+     echo "[+] Cryptsetup installed!"
+fi
+
 # Check for bad block on the device:
 badblocks -c 10240 -s -w -t random -v "${device}"
+echo "[+] Badblock check completed!"
 
 # Random data on the device:
+echo "[+] Writing random data on the device!"
 dd if=/dev/urandom of="${device}"
+echo "[+] Completed!"
 
 # DD THE binary.img to a usb
+echo "[+] Starting DD"
 dd if=binary.img of="${device}"
+echo "[+] Completed!"
 
 # Make the partition
+echo "[+] Make ecnrypted and persistent partition"
 img_bytes=$(stat -c %s binary.img)
 img_bytes=$((img_bytes+1))
 
@@ -53,4 +73,3 @@ umount /dev/mapper/my_usb
 
 # Close LUKS
 cryptsetup luksClose /dev/mapper/my_usb
-
