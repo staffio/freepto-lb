@@ -11,6 +11,8 @@ curl
 wget
 gksu
 lsof
+unrar-nonfree
+
 
 # Network:
 tor
