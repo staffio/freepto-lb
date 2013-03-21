@@ -1,10 +1,10 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Firefox-Tor
+Name=TorBrowser
 Comment=Firefox in modalità anonima
-Exec=/home/paranoid/.opt/tor-browser_it/start-tor-browser
-Icon=/home/paranoid/.opt/tor-browser_it/App/Firefox/chrome/icons/default/default48.png
+Exec=/home/paranoid/.opt/tor-browser_en-US/start-tor-browser
+Icon=/home/paranoid/.opt/tor-browser_en-US/App/Firefox/chrome/icons/default/default48.png
 Path=
 Terminal=false
 StartupNotify=false

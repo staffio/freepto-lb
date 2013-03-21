@@ -55,8 +55,8 @@ SHA1-Digest: uiuKMnLCaalL255s/5xN5WhjTrY=
 
 Name: chrome/content/ghostery-bugs.json
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: Ae9WDfZIRCNb+jM/Vc6JdA==
-SHA1-Digest: 3BJtHy1vV7BZuyQsm1as6AD3htw=
+MD5-Digest: WSU8tSjtguZNXTNCa/6Llw==
+SHA1-Digest: tZcPC7xf6FvbRcq1flTjcdguocs=
 
 Name: chrome/content/ghostery-clean.js
 Digest-Algorithms: MD5 SHA1
@@ -70,8 +70,8 @@ SHA1-Digest: GP6VcnWRPsZCr7jljxVj2LDDKjU=
 
 Name: chrome/content/ghostery-common.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: dwchruoBslA2ZfulmE5W8w==
-SHA1-Digest: JGkLfbm4H6iPWd7iRNVDccDFRjw=
+MD5-Digest: plNBJTXv1hcpv+/4N358ig==
+SHA1-Digest: 5POmqBj2YkhC4EHW2n3bQpUOb44=
 
 Name: chrome/content/ghostery-compatibility.json
 Digest-Algorithms: MD5 SHA1
@@ -110,8 +110,8 @@ SHA1-Digest: 4hr01nKTvyb01nUGmx1HFZpOFIw=
 
 Name: chrome/content/ghostery-lsos.json
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: M+Ijr2+7nJPn4GiIS9KA6Q==
-SHA1-Digest: qxsLik6mzoZvwf2zxxSNsX2TWus=
+MD5-Digest: bCrl7gKrbbF9IE7WpOsW7Q==
+SHA1-Digest: JvCbc0ExNImv2LmRgblgPStvxLI=
 
 Name: chrome/content/ghostery-off-16x16.png
 Digest-Algorithms: MD5 SHA1
@@ -760,8 +760,8 @@ SHA1-Digest: Ms8mnoUJ+KFkh9ewB4sgUHm4UB0=
 
 Name: components/ghostery-content-policy.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: yqXf5rQ6gj9SiA3Xx3oF4g==
-SHA1-Digest: 4MSzBxx4tYi/dqAUwf4JnkC1dGw=
+MD5-Digest: iy6PxIZ77xUYfhYmYHzPiA==
+SHA1-Digest: yKZd+I4f6MgkC/bvvYTHsxQQFNU=
 
 Name: defaults/preferences/defaults.js
 Digest-Algorithms: MD5 SHA1
@@ -775,8 +775,8 @@ SHA1-Digest: YdlJVyTkYPB/WvAdKu3NYd/ekB4=
 
 Name: install.rdf
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: /R7M58zv0RxzMkrJAu3Kzw==
-SHA1-Digest: rr35vm03yp1FNQ6UR4uBd88tjBM=
+MD5-Digest: meGVGNSlqgdtdXN6YUL4+A==
+SHA1-Digest: sXwPea9ZF8Q8+ZZMXc9mPrw3dLQ=
 
 Name: resource/allow_once.png
 Digest-Algorithms: MD5 SHA1

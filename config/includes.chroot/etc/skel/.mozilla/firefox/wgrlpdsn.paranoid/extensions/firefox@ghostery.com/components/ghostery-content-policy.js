@@ -124,6 +124,9 @@ GhosteryContentPolicy.prototype = {
 		// only reset at top levels
 		if (contentType === Ci.nsIContentPolicy.TYPE_DOCUMENT && contentLocation.host) {
 			this.changeReset();
+			
+			// No blocking at top level, continue
+			return Ci.nsIContentPolicy.ACCEPT;
 		}
 
 		// added to support calculation of object load latency

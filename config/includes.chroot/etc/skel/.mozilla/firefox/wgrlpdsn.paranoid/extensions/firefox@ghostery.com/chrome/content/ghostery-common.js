@@ -11,7 +11,7 @@
 if( !ghostery ) { var ghostery = {}; }  // If Ghostery is not already loaded, define it and set current preferences state.
 
 ghostery.prefs = {
-	version: '2.9.2',
+	version: '2.9.3',
 	showBubble: null,
 	showBugCount: null,
 	expandSources: null,

@@ -12,7 +12,7 @@ wget
 gksu
 lsof
 unrar
-
+btrfs-tools
 
 # Network:
 tor
@@ -20,8 +20,6 @@ pidgin
 pidgin-otr
 deb.torproject.org-keyring
 xchat
-vidalia
-tor-arm
 openvpn
 privoxy
 ufw
