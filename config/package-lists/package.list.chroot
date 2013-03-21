@@ -11,7 +11,7 @@ curl
 wget
 gksu
 lsof
-unrar-nonfree
+unrar
 
 
 # Network:
