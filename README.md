@@ -23,15 +23,17 @@ Chroot Debian Sid
 Build
 =====
 
+1. Make your build.img
+
  $ lb config && lb build
 
 Make Freepto
 ============
 
-1. use "dmesg" to identify the usb device
+1. Use "dmesg" to identify the usb device:
 
  $ dmesg
 
-2. run make-freepto.sh
+2. Run make-freepto.sh
 
  $ bash make-freepto.sh /dev/sdd
