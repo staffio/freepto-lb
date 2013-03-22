@@ -17,7 +17,9 @@ Chroot Debian Sid
 3. Cache for APT (optional):
 
  $ apt-get install apt-cacher-ng
+ 
  $ /etc/init.d/apt-cacher-ng start
+ 
  $ export http_proxy=http://localhost:3142/
 
 Build
