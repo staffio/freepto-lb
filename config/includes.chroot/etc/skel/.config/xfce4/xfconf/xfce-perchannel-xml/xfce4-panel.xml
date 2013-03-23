@@ -23,6 +23,7 @@
     <property name="plugin-1" type="string" value="applicationsmenu">
       <property name="show-button-title" type="bool" value="true"/>
       <property name="button-title" type="string" value="Menu"/>
+      <property name="button-icon" type="string" value="debian-logo"/>
     </property>
     <property name="plugin-2" type="string" value="actions"/>
     <property name="plugin-3" type="string" value="tasklist"/>
@@ -36,6 +37,4 @@
         <value type="string" value="thunar"/>
       </property>
     </property>
-    <property name="plugin-16" type="string" value="xfce4-mixer-plugin"/>
-  </property>
 </channel>

@@ -16,6 +16,7 @@ btrfs-tools
 
 # Network:
 tor
+tor-arm
 pidgin
 pidgin-otr
 deb.torproject.org-keyring
@@ -33,6 +34,7 @@ firefox-l10n-it
 # Mail and GPG
 thunderbird
 thunderbird-l10n-it
+seahorse
 
 # Tools
 macchanger

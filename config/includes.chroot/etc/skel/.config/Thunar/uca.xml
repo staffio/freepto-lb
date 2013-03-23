@@ -19,7 +19,7 @@
 <action>
 	<icon>gcr-key</icon>
 	<name>Cancellazione Sicura</name>
-	<command>&quot;shred -u %f</command>
+	<command>shred -fuz %F</command>
 	<description>Elimina in maniera sicura i documenti dal tuo computer</description>
 	<patterns>*</patterns>
 	<text-files/>
