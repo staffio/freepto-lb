@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+#set -x
 
 # Check if user is root
 if [ "$(id -u)" != "0" ]; then
