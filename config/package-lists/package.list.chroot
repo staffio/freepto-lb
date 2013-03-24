@@ -45,6 +45,7 @@ bleachbit
 secure-delete
 gnome-disk-utility
 gparted
+florence
 
 # Multimedia
 deb-multimedia-keyring
