@@ -90,13 +90,17 @@ if [ "$options" = "start" ]; then
 	sudo iptables -t nat -X
 
 	# Redirec all DNS traffic trought TOR
-	sudo iptables -t nat -A OUTPUT -p udp -m owner --uid-owner $user -m udp --dport 53 -j REDIRECT --to-ports 53
+	sudo iptables -t nat -A OUTPUT ! -o lo -p udp -m owner --uid-owner $user -m udp --dport 53 -j REDIRECT --to-ports 53
 	sudo iptables -t filter -A OUTPUT -p udp -m owner --uid-owner $user -m udp --dport 53 -j ACCEPT
 
 	# Rediret all traffic throught TOR
-	sudo iptables -t nat -A OUTPUT -p tcp -m owner --uid-owner $user -m tcp -j REDIRECT --to-ports 9040
+	sudo iptables -t nat -A OUTPUT ! -o lo -p tcp -m owner --uid-owner $user -m tcp -j REDIRECT --to-ports 9040
 	sudo iptables -t filter -A OUTPUT -p tcp -m owner --uid-owner $user -m tcp --dport 9040 -j ACCEPT
-	sudo iptables -t filter -A OUTPUT -m owner --uid-owner $user -j DROP
+	sudo iptables -t filter -A OUTPUT ! -o lo -m owner --uid-owner $user -j DROP
+
+	# control port
+	sudo iptables -t nat -A OUTPUT -p tcp -m owner --uid-owner $user -m tcp --syn -d 127.0.0.1 --dport 9051 -j ACCEPT
+
 	notify-send TORtp "IPtables modificato" -i /usr/share/pixmaps/anonymous.ico
 
 	# Check my new IP address
