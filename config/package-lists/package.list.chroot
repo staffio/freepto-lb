@@ -41,6 +41,7 @@ macchanger
 wipe
 bleachbit
 secure-delete
+gnome-disk-utility
 
 # Multimedia
 deb-multimedia-keyring
