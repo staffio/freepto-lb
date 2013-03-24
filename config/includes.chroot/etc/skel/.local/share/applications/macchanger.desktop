@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=MACchanger
+Comment=Modifica il Mac Address delle interfacce di rete
+Exec=sudo macchanger-gtk
+Path=
+Terminal=false
+StartupNotify=false
