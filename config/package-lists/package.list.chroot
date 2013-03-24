@@ -46,6 +46,7 @@ secure-delete
 gnome-disk-utility
 gparted
 florence
+keepassx
 
 # Multimedia
 deb-multimedia-keyring
