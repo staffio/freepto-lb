@@ -25,6 +25,7 @@ openvpn
 privoxy
 ufw
 gufw
+transmission
 
 # Navigazione:
 linuxmint-keyring
@@ -43,6 +44,7 @@ wipe
 bleachbit
 secure-delete
 gnome-disk-utility
+gparted
 
 # Multimedia
 deb-multimedia-keyring
