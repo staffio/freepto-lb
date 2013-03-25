@@ -20,3 +20,7 @@ Pin-Priority: -1
 Package: exfalso
 Pin: version *
 Pin-Priority: -1
+
+Package: uzbl
+Pin: version *
+Pin-Priority: -1
