@@ -11,6 +11,7 @@ lb config noauto \
     --debian-installer live \
     --debian-installer-gui true \
     --bootappend-live "\
+    --bootappend-install "noprompt" \
     boot=live \
     config \
     persistence-encryption=luks \
