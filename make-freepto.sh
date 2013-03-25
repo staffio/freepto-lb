@@ -13,18 +13,14 @@ if [ $# != 1 ];then
 fi
 device=$1
 
-# check dpkg
-btrfs=$(dpkg -s btrfs-tools | grep installed)
-if [ "" == "$btrfs" ]; then
+# check dependencies
+if ! which mkfs.btrfs &> /dev/null; then
      echo "[-] No btrfs. Setting up btrfs-tools"
-     sudo apt-get --force-yes --yes install btrfs-tools
-     echo "[+] Btrfs-tools installed!"
+     sudo apt-get --force-yes --yes install btrfs-tools && echo "[+] Btrfs-tools installed!"
 fi
-crypts=$(dpkg -s cryptsetup | grep installed)
-if [ "" == "$crypts" ]; then
+if ! which cryptsetup &> /dev/null; then
      echo "[-] No cryptsetup. Setting up cryptsetup"
-     sudo apt-get --force-yes --yes install cryptsetup
-     echo "[+] Cryptsetup installed!"
+     sudo apt-get --force-yes --yes install cryptsetup && echo "[+] Cryptsetup installed!"
 fi
 
 # Check for bad block on the device:
