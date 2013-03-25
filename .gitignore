@@ -32,3 +32,4 @@ config/includes.chroot/etc/skel/.mozilla/firefox/Crash Reports/
 *.swp
 *.swo
 *~
+config/includes.chroot/etc/skel/.mozilla/firefox/wgrlpdsn.paranoid/Cache
