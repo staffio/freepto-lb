@@ -163,7 +163,7 @@ lb config noauto \
     persistence \
     live-config.timezone='$ZONE' \
     live-config.locales=$LOCALE live-config.timezone=$ZONE live-config.keyboard-layouts=$KEYMAP \
-    live-config.hooks=filesystem \
+    live-config.hooks=filesystem live-config.nottyautologin \
     " \
     --archive-areas "main contrib non-free" \
     --apt-recommends true
