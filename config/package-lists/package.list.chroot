@@ -12,15 +12,19 @@ apt-utils
 vim
 screen
 git
-curl
-wget
 gksu
 lsof
-unrar
 btrfs-tools
+unrar
 htop
+
+# Network base software
+curl
+wget
 ca-certificates
 dnsutils
+
+# locales-all
 
 # XFCE4
 task-laptop
@@ -35,33 +39,37 @@ flashplugin-nonfree
 libreoffice-writer
 libreoffice-calc
 libreoffice-impress
-#if LOCALE es_AR es_BO es_CL es_CO es_CR es_DO es_EC es_ES es_ES@euro es_GT es_HN es_MX es_NI es_PA es_PE es_PR es_PY es_SV es_US es_UY es_VE
-libreoffice-l10n-es
-#endif
-#if LOCALE it_IT it_CH it_IT@euro
+libreoffice-gtk
+# es,en,it; who needs more?
 libreoffice-l10n-it
-#endif
+libreoffice-l10n-es
+libreoffice-l10n-en-gb
+mythes-it
+mythes-en-us
+hunspell-en-us
 
-# Network:
+# Network configuration
+deb.torproject.org-keyring
 tor
 tor-arm
-pidgin
-pidgin-otr
-deb.torproject.org-keyring
-xchat
-openvpn
-iodine
-obfsproxy
-ufw
-gufw
-transmission
 network-manager
 network-manager-gnome
 network-manager-openvpn
 network-manager-vpnc
 network-manager-strongswan
 network-manager-pptp
+iodine
 network-manager-iodine
+openvpn
+obfsproxy
+ufw
+gufw
+
+# Network X software
+pidgin
+pidgin-otr
+xchat
+transmission
 filezilla
 
 # Wireless Tools:
@@ -71,35 +79,32 @@ reaver
 pyrit
 
 # Firefox:
-linuxmint-keyring
-firefox
-#if LOCALE es_AR es_BO es_CL es_CO es_CR es_DO es_EC es_ES es_ES@euro es_GT es_HN es_MX es_NI es_PA es_PE es_PR es_PY es_SV es_US es_UY es_VE
-firefox-l10n-es
-#endif
-#if LOCALE it_IT it_CH it_IT@euro
-firefox-l10n-it
-#endif
+iceweasel
+iceweasel-l10n-it
+iceweasel-l10n-en-gb
+iceweasel-l10n-es-es
 
 # Mail and GPG
-thunderbird
-#if LOCALE es_AR es_BO es_CL es_CO es_CR es_DO es_EC es_ES es_ES@euro es_GT es_HN es_MX es_NI es_PA es_PE es_PR es_PY es_SV es_US es_UY es_VE
-thunderbird-l10n-es
-#endif
-#if LOCALE it_IT it_CH it_IT@euro
-thunderbird-l10n-it
-#endif
+gnupg-curl
+gnupg2
+icedove
+icedove-l10n-it
+icedove-l10n-en-gb
+icedove-l10n-es-es
 seahorse
+enigmail
 signing-party
 
-# Tools
+# Paranoid Tools
 macchanger
 macchanger-gtk
 bleachbit
 secure-delete
 gnome-disk-utility
-gparted
 florence
 tomb
+
+gparted
 
 # Multimedia
 deb-multimedia-keyring
