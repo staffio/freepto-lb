@@ -1,6 +1,9 @@
 linux-image-amd64
 linux-image-486
 
+# build-related
+eatmydata
+
 # SO
 aptitude
 firmware-linux-free

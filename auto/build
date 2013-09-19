@@ -1,3 +1,18 @@
-#!/bin/sh
+#!/bin/bash
 
-lb build noauto "${@}" 2>&1 | tee build.log
+MKSQUASHFS_OPTIONS="-comp xz"
+export MKSQUASHFS_OPTIONS
+
+if which eatmydata &> /dev/null ; then
+	LB="eatmydata lb"
+else
+	echo "Warning: if you install eatmydata, you'll get faster builds"
+	LB="lb"
+fi
+
+set -o pipefail
+if time $LB build noauto ${@} 2>&1 | tee build.log ; then
+   echo "Image was successfully created"
+else
+   echo "lb build failed ($?)." >&2
+fi
