@@ -20,6 +20,8 @@ lsof
 btrfs-tools
 unrar
 htop
+reiserfsprogs
+lvm2
 
 # Network base software
 curl
