@@ -1,6 +1,11 @@
 #!/bin/sh
 # Freepto LiveBuild Config
 
+commit=${$(git rev-parse HEAD):-NOGIT}
+cat >> config/includes.chroot/root/freepto-build.txt <<EOF
+FREEPTO_COMMIT=${commit}
+EOF
+
 lb config noauto \
     -a i386 \
     -b hdd \
