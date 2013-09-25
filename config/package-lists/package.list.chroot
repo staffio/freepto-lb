@@ -75,7 +75,7 @@ transmission
 filezilla
 
 # Wireless Tools:
-wifite
+#wifite
 tshark
 reaver
 pyrit
