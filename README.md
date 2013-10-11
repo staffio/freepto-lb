@@ -22,7 +22,7 @@ Make Freepto
 > $ export http_proxy=http://localhost:3142/
 
 ### Make your Freepto image:
-> $ sudo apt-get install install live-build
+> $ sudo apt-get install live-build
 
 > $ git clone https://github.com/AvANa-BBS/freepto-lb.git
 
